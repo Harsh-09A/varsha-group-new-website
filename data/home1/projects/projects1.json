@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Balaji Shrushti",
+    "sub1": "Nerul, Navi Mumbai",
+    "sub2": "Completed",
+    "desc": "This area will is short description of project, you can select to show or hide it,  this a sample short paragraph for this.",
+    "img": "/home1/assets/img/projects/balaji-shrushti.jpg"
+  },
+  {
+    "title": "Balaji Darshan",
+    "sub1": "Ulwe, Navi Mumbai",
+    "sub2": "Completed",
+    "desc": "This area will is short description of project, you can select to show or hide it,  this a sample short paragraph for this.",
+    "img": "/home1/assets/img/projects/balaji-darshan.jpg"
+  },
+  {
+    "title": "Balaji Exotica",
+    "sub1": "Kopar Khairane, Navi Mumbai",
+    "sub2": "Completed",
+    "desc": "This area will is short description of project, you can select to show or hide it,  this a sample short paragraph for this.",
+    "img": "/home1/assets/img/projects/balaji-exotica.jpg"
+  },
+  {
+    "title": "Balaji Heights",
+    "sub1": "Sanpada, Navi Mumbai",
+    "sub2": "Completed",
+    "desc": "This area will is short description of project, you can select to show or hide it,  this a sample short paragraph for this.",
+    "img": "/home1/assets/img/projects/balaji-heights.jpg"
+  }
+]
+
+

@@ -1,11 +1,56 @@
+"use client";
 
+import Script from "next/script";
 
-const Home = () => {
+import Loader from "@/components/common/Loader";
+import Menu from "@/components/home1/Menu";
+import Navbar from "@/components/home1/Navbar";
+import Header from "@/components/home1/Header";
+import Experience from "@/components/home1/Experience";
+import Services from "@/components/home1/Services";
+import Process from "@/components/home1/Process";
+import Projects from "@/components/home1/Projects";
+import Testimonials from "@/components/home1/Testimonials";
+import Blog from "@/components/home1/Blog";
+import Chat from "@/components/home1/Chat";
+import Footer from "@/components/home1/Footer";
+
+export default function HomePage() {
   return (
     <>
-      <h1>Hello</h1>
-    </>
-  )
-}
+      <link rel="stylesheet" href="/home1/assets/css/home_1_style.css" />
 
-export default Home
+      <Script
+        src="/common/assets/js/common_js.js"
+        strategy="afterInteractive"
+      />
+
+      <Script
+        src="/home1/assets/js/home_1_scripts.js"
+        strategy="afterInteractive"
+      />
+
+      <div className="home-style1">
+        {/* <Loader /> */}
+
+
+        <div className="smooth-scroll-content" id="scrollsmoother-container">
+          <Navbar />
+          <Header />
+
+          <main>
+            <Experience />
+            <Services />
+            <Process />
+            <Projects />
+            <Testimonials />
+            <Blog />
+            <Chat />
+          </main>
+
+          <Footer />
+        </div>
+      </div>
+    </>
+  );
+}

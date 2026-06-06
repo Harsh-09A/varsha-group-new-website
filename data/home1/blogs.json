@@ -1,0 +1,23 @@
+[
+  {
+    "img": "/home1/assets/img/blog/blog1.jpg",
+    "num": "01",
+    "history": "June <br /> 2026",
+    "title": "How NMIA Will Reshape Property Demand and Prices",
+    "subTitle": "Property Guide"
+  },
+  {
+    "img": "/home1/assets/img/blog/blog2.jpg",
+    "num": "02",
+    "history": "June <br /> 2026",
+    "title": "How To Evaluate a Developer Before Buying",
+    "subTitle": "Inspiration"
+  },
+  {
+    "img": "/home1/assets/img/blog/blog1.jpg",
+    "num": "03",
+    "history": "June <br /> 2026",
+    "title": "The Growing Demand for Amenities-Driven Living in Navi Mumbai",
+    "subTitle": "Architecture, Guide"
+  }
+]
