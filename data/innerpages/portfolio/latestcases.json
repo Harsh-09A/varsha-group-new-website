@@ -1,0 +1,30 @@
+[
+  {
+    "img": "/home1/assets/img/projects/balaji-shrushti.jpg",
+    "subTitle": "Nerul, Navi Mumbai",
+    "status": "Upcoming",
+    "title": "Balaji Shrushti",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+  },
+  {
+    "img": "/home1/assets/img/projects/balaji-darshan.jpg",
+    "subTitle": "Ulwe, Navi Mumbai",
+    "status": "Upcoming",
+    "title": "Balaji Darshan",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+  },
+  {
+    "img": "/home1/assets/img/projects/balaji-exotica.jpg",
+    "subTitle": "Kopar Khairane, Navi Mumbai",
+    "title": "Balaji Exotica",
+    "status": "Completed",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+  },
+  {
+    "img": "/home1/assets/img/projects/balaji-heights.jpg",
+    "subTitle": "Sanpada, Navi Mumbai",
+    "title": "Balaji Heights",
+    "status": "Ongoing",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+  }
+]

@@ -1,0 +1,16 @@
+.footer-links li a {
+  color: #fff !important;
+}
+
+.tc-header-style1 .swiper-wrapper {
+  transform: translate3d(0px, -50px, 0px) !important;
+  -webkit-transform: translate3d(0px, -50px, 0px) !important;
+  -moz-transform: translate3d(0px, -50px, 0px) !important;
+  -ms-transform: translate3d(0px, -50px, 0px) !important;
+  -o-transform: translate3d(0px, -50px, 0px) !important;
+}
+
+.tc-footer-style1 .branch-card h5{
+    color: var(--color-orange1);
+
+}
