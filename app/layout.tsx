@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import { Plus_Jakarta_Sans } from "next/font/google";
-import BootstrapProvider from "@/components/Providers/BootstrapProvider";
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -23,15 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="stylesheet" href="/vendor/themify-icons/themify-icons.css" />
-      </head>
-      <body className={plusJakarta.className}>
-        <BootstrapProvider />
-        {children}
-      </body>
-
-      
+      <head></head>
+      <body className={plusJakarta.className}>{children}</body>
     </html>
   );
 }
