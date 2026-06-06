@@ -14,3 +14,47 @@
     color: var(--color-orange1);
 
 }
+
+/* Filter Container */
+.filter .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Filter Button */
+.filter-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  padding: 10px 22px;
+  border-radius: 50px;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+
+  color: #666;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.filter-btn:hover {
+  color: #fff;
+  background: var(--color-orange1); /* theme orange */
+}
+
+/* Active */
+.filter-btn.active {
+  color: #fff;
+  background:var(--color-orange1);
+  box-shadow: 0 8px 20px rgba(255, 107, 53, 0.25);
+}
+
+/* Focus */
+.filter-btn:focus-visible {
+  outline: 2px solid var(--color-orange1);
+  outline-offset: 2px;
+}

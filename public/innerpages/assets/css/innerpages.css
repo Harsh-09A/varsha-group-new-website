@@ -2088,7 +2088,7 @@
 }
 .about-pg-style1 .tc-process-style2 .imgs {
   position: relative;
-  background-image: url(../img/bubbles.png);
+  /* background-image: url(../img/bubbles.png); */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
