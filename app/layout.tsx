@@ -88,6 +88,24 @@ export default function RootLayout({
           src="/common/assets/js/lib/parallaxie.js"
           strategy="afterInteractive"
         />
+
+        <Script
+          src="/common/assets/js/lib/mixitup.min.js"
+          strategy="afterInteractive"
+        />
+
+        <Script
+          src="/common/assets/js/gsap_lib/gsap.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/common/assets/js/gsap_lib/ScrollSmoother.min.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="/common/assets/js/gsap_lib/ScrollTrigger.min.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

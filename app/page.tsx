@@ -31,7 +31,7 @@ export default function HomePage() {
       />
 
       <div className="home-style1">
-        {/* <Loader /> */}
+        <Loader />
 
 
         <div className="smooth-scroll-content" id="scrollsmoother-container">

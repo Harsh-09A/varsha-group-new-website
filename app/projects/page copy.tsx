@@ -3,15 +3,13 @@
 import Script from "next/script";
 
 import Loader from "@/components/common/Loader";
-import Header from "@/components/innerpage/about/Header";
+import Header from "@/components/innerpage/portfolio/Header";
 import Navbar from "@/components/innerpage/Navbar";
-import About from "@/components/innerpage/about/About";
-import Process from "@/components/innerpage/about/Process";
-import Projects from "@/components/innerpage/about/Projects";
-import Awards from "@/components/innerpage/about/Awards";
 import Footer from "@/components/home1/Footer";
+import LatestCases from '@/components/innerpage/portfolio/LatestCases';
+import StartButton from "@/components/common/StartButton";
 
-export default function AboutPage() {
+export default function ProjectsPage() {
   return (
     <>
       <link rel="stylesheet" href="/innerpages/assets/css/innerpages.css" />
@@ -26,22 +24,20 @@ export default function AboutPage() {
         strategy="afterInteractive"
       />
 
-      <div className="inner-pages-style1 about-pg-style1">
-        <Loader />
+      <div className="inner-pages-style1 portfolio-pg-style1">
+        {/* <Loader /> */}
 
         <div className="smooth-scroll-content" id="scrollsmoother-container">
           <Navbar />
           <Header />
 
           <main>
-            <About />
-            <Process />
-            {/* <Projects /> */}
-            <Awards />
+            <LatestCases />
           </main>
 
           <Footer />
         </div>
+        <StartButton />
       </div>
     </>
   );
