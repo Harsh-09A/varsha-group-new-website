@@ -116,7 +116,7 @@ function FilterPosts() {
                     data-wow-delay="0.2s"
                   >
                     <a
-                      href="#"
+                      href={`/blogs/${item.title}`}
                       className="img th-280 radius-7 overflow-hidden d-block"
                     >
                       <img
@@ -138,7 +138,7 @@ function FilterPosts() {
                       </div>
 
                       <h3 className="title mt-15">
-                        <a href="#" className="hover-orange1 fsz-24">
+                        <a href={`/blogs/${item.title}`} className="hover-orange1 fsz-24">
                           {item.title}
                         </a>
                       </h3>
