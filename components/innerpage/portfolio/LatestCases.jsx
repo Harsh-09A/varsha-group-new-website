@@ -125,7 +125,7 @@ function LatestCases() {
                           </div>
 
                           <h3 className="title fsz-35 mb-20">
-                            <a href="#" className="hover-orange1">
+                            <a href={`/projects/${item.title}`} className="hover-orange1">
                               {item.title}
                             </a>
                           </h3>
