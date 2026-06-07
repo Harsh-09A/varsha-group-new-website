@@ -75,11 +75,13 @@ function LatestCases() {
               data-wow-delay="0.4s"
             >
               <div className="row">
-                <AnimatePresence mode="popLayout">
+                <AnimatePresence initial={false} >
                   {filteredData.map((item, i) => (
                     <motion.div
-                      key={`${item.title}-${i}`}
-                      layout
+                      key={item.id || i}
+                      layout="position"
+                       layoutId={item.title}
+                      className={`col-lg-4 ${item.status}`}
                       initial={{
                         opacity: 0,
                         y: 40,
@@ -96,13 +98,13 @@ function LatestCases() {
                         scale: 0.95,
                       }}
                       transition={{
-                        duration: 0.45,
-                        ease: "easeInOut",
+                        duration: 0.6,
+                          ease: "easeInOut",
                         layout: {
-                          duration: 0.5,
+                          duration: 0.8,
+                          ease: [0.22, 1, 0.36, 1],
                         },
                       }}
-                      className={`col-lg-4 ${item.status}`}
                     >
                       <div className="case-card">
                         <div className="img">
@@ -145,7 +147,7 @@ function LatestCases() {
               </div>
 
               {/* Pagination */}
-              <nav aria-label="Page navigation example">
+              {/* <nav aria-label="Page navigation example">
                 <ul className="pagination">
                   <li className="page-item">
                     <a className="page-link" href="#">
@@ -189,7 +191,7 @@ function LatestCases() {
                     </a>
                   </li>
                 </ul>
-              </nav>
+              </nav> */}
             </div>
           </div>
         </div>
