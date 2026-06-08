@@ -1,18 +1,18 @@
-import React from 'react';
 
-function Header() {
+
+function Header({data}) {
   return (
     <header className="s-header-style2">
       <div className="container">
         <div className="info">
           <div className="tags mb-50">
-            <a href="#"> Completed </a>
-            <a href="#"> Ulwe </a>
+            <a href="#" className='text-capitalize'> {data.category} </a>
+            <a href="#"> {data.location} </a>
           </div>
           <div className="text mt-30">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, adipisci!
+            {data.excerpt}
           </div>
-          <h1 className="title"> Balaji Sapphire </h1>
+          <h1 className="title"> {data.title} </h1>
         </div>
       </div>
       <img

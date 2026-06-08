@@ -1,6 +1,6 @@
 import React from "react";
 
-function Contact() {
+function Contact({ data }) {
   return (
     <section className="tc-contact-style2">
       <div className="container">
@@ -8,10 +8,8 @@ function Contact() {
           <div className="col-lg-4">
             <div className="info wow fadeInUp slow" data-wow-delay="0.2s">
               <h3 className="fsz-45 fw-500">Let us helps build your dream!</h3>
-              <h6 className="fsz-21 fw-400 mt-50"> (022) 27565742 /43</h6>
-              <p className="fsz-14 color-666 mt-15">
-               1003-1004, Shelton Cubix, Plot No.87, CBD Belapur, Navi Mumbai-400614 <br /> hello@varshagroup.com
-              </p>
+              <h6 className="fsz-21 fw-400 mt-50"> {data.contact_number}</h6>
+              <p className="fsz-14 color-666 mt-15">{data.site_address}</p>
             </div>
           </div>
           <div className="col-lg-6">

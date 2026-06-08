@@ -1,6 +1,6 @@
-import React from 'react';
 
-function MainInfo() {
+
+function MainInfo({data}) {
   return (
     <section className="tc-main-info-style2">
       <div className="container">
@@ -23,21 +23,21 @@ function MainInfo() {
               className="fsz-24 fw-500 mt-4 mt-lg-0 wow fadeInUp slow"
               data-wow-delay="0.2s"
             >
-              Balaji Sapphire is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.
+             {data.description}
             </h6>
 
             <ul className="lh-6 mt-70 wow fadeInUp slow" data-wow-delay="0.6s">
               <li className="fsz-18">
-                <span className="color-666"> Location: </span> Nerul, Navi Mumbai
+                <span className="color-666"> Location: </span> {data.location}
               </li>
               <li className="fsz-18">
-                <span className="color-666"> RERA ID: </span> P000000000
+                <span className="color-666"> RERA ID: </span> {data.rera_id}
               </li>
               <li className="fsz-18">
-                <span className="color-666"> Starting price: </span>  1.5 Cr
+                <span className="color-666"> Starting price: </span> {data.starting_price}
               </li>
-              <li className="fsz-18">
-                <span className="color-666"> Status: </span> Completed
+              <li className="fsz-18 text-capitalize">
+                <span className="color-666"> Status: </span> {data.status}
               </li>
             </ul>
           </div>

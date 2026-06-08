@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import Script from "next/script";
 
@@ -6,14 +6,28 @@ import Loader from "@/components/common/Loader";
 import Navbar from "@/components/innerpage/Navbar";
 import Header from '@/components/innerpage/single_project2/Header';
 import MainInfo from '@/components/innerpage/single_project2/MainInfo';
-import Challenge from '@/components/innerpage/single_project2/Challenge';
+import Gallery from '@/components/innerpage/single_project2/Gallery';
 import Testimonials from '@/components/innerpage/single_project2/Testimonials';
 import Amenities from '@/components/innerpage/single_project2/Amenities';
 import MainVideo from '@/components/innerpage/single_project2/MainVideo';
 import Contact from '@/components/innerpage/single_project2/Contact';
 import Footer from "@/components/home1/Footer";
+import { getProjectBySlug } from "@/services/projects-service";
 
-export default function SingleBlogPage() {
+type Props = {
+  params: Promise<{
+    slug: string;
+  }>;
+};
+
+export default async function SingleProjectPage({ params }: Props) {
+  const { slug } = await params;
+  console.log(slug)
+
+  const project = await getProjectBySlug(slug);
+
+
+
   return (
     <>
       <link rel="stylesheet" href="/innerpages/assets/css/innerpages.css" />
@@ -33,15 +47,15 @@ export default function SingleBlogPage() {
 
         <div className="smooth-scroll-content" id="scrollsmoother-container">
           <Navbar />
-          <Header />
+          <Header data ={project} />
 
           <main>
-            <MainInfo />
-            <Challenge />
+            <MainInfo data ={project}/>
+            <Gallery data ={project}/>
             {/* <Testimonials /> */}
             <Amenities />
             <MainVideo />
-            <Contact />
+            <Contact data ={project} />
           </main>
 
           <Footer />
