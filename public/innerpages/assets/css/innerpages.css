@@ -174,7 +174,8 @@
 .inner-navbar-style1 .navbar-nav .nav-link {
   font-size: 20px;
   font-weight: 600;
-  color: #000;
+  /* color: #000; */
+  color: #fff;
   -webkit-margin-start: 30px;
           margin-inline-start: 30px;
   text-transform: capitalize;
@@ -185,7 +186,8 @@
 .inner-navbar-style1 .nav-side a {
   font-size: 14px;
   font-weight: 600;
-  color: #000;
+  /* color: #000; */
+    color: #fff;
 }
 .inner-navbar-style1 .nav-search-box {
   position: absolute;

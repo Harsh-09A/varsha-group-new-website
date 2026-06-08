@@ -59,3 +59,12 @@
   outline-offset: 2px;
 }
 
+
+
+.inner-pages-style1 .inner-navbar-style1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
