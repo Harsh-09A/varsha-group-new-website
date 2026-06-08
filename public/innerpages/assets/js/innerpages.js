@@ -163,16 +163,33 @@ $(document).ready(function() {
 
     // ------------ tc-featured-cases-style1 -----------
     var swiper = new Swiper('.s-project-pg-style2 .tc-testimonials-style2 .testi-slider', {
-        spaceBetween: 30,
+        spaceBetween: 10,
         speed: 1000,
         pagination: false,
         navigation: false,
         mousewheel: false,
         keyboard: true,
         autoplay: {
-            delay: 5000,
+            delay: 50,
         },
         loop: true,
+        breakpoints: {
+            0: {
+                slidesPerView: 3,
+            },
+            480: {
+                slidesPerView: 1,
+            },
+            787: {
+                slidesPerView: 2,
+            },
+            991: {
+                slidesPerView: 2,
+            },
+            1200: {
+                slidesPerView: 2.5,
+            }
+        }
     });
 
 

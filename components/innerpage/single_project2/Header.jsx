@@ -6,18 +6,17 @@ function Header() {
       <div className="container">
         <div className="info">
           <div className="tags mb-50">
-            <a href="#"> Architecture </a>
-            <a href="#"> Landscape </a>
+            <a href="#"> Completed </a>
+            <a href="#"> Ulwe </a>
           </div>
           <div className="text mt-30">
-            This area will is short description of project, you can <br />
-            select to show or hide it
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, adipisci!
           </div>
-          <h1 className="title"> Dallas Homestay Redesign </h1>
+          <h1 className="title"> Balaji Sapphire </h1>
         </div>
       </div>
       <img
-        src="/innerpages/assets/img/s_project2/header_bg.jpg"
+        src="/innerpages/assets/img/s_project2/balaji-sapphire-2.jpg"
         alt=""
         className="bg img-cover"
         data-speed="1.25"

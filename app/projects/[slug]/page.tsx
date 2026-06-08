@@ -8,6 +8,7 @@ import Header from '@/components/innerpage/single_project2/Header';
 import MainInfo from '@/components/innerpage/single_project2/MainInfo';
 import Challenge from '@/components/innerpage/single_project2/Challenge';
 import Testimonials from '@/components/innerpage/single_project2/Testimonials';
+import Amenities from '@/components/innerpage/single_project2/Amenities';
 import MainVideo from '@/components/innerpage/single_project2/MainVideo';
 import Contact from '@/components/innerpage/single_project2/Contact';
 import Footer from "@/components/home1/Footer";
@@ -37,7 +38,8 @@ export default function SingleBlogPage() {
           <main>
             <MainInfo />
             <Challenge />
-            <Testimonials />
+            {/* <Testimonials /> */}
+            <Amenities />
             <MainVideo />
             <Contact />
           </main>
