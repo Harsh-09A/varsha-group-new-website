@@ -7,10 +7,73 @@
         "category": "residential",
         "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
         "gallery": [
-            "/uploads/project_imgs/Sapphire_03.jpg",
+            "/uploads/project_imgs/common_gallery_02.jpg",
             "/uploads/project_imgs/Sapphire_01.jpg",
-            "/uploads/project_imgs/Sapphire_02.jpg",
+            "/uploads/project_imgs/common_gallery_01.jpg",
             "/uploads/project_imgs/Sapphire_04.jpg"
+        ],
+        "location": "Nerul, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima.",
+        "description": "Balaji Sapphire is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
+        "rera_id": "P000000000",
+        "starting_price": " 1.5 Cr",
+        "contact_number": "(022) 27565742 /43",
+        "site_address": "1003-1004, Shelton Cubix, Plot No.87, CBD Belapur, Navi Mumbai-400614"
+    },
+    {
+        "id": 2,
+        "title": "Balaji Vista",
+        "slug": "balaji-vista",
+        "status": "completed",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Vista_01.jpg",
+        "gallery": [
+            "/uploads/project_imgs/Vista_01.jpg",
+            "/uploads/project_imgs/Vista_02.jpg",
+            "/uploads/project_imgs/common_gallery_03.jpg",
+            "/uploads/project_imgs/common_gallery_01.jpg"
+        ],
+        "location": "Nerul, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima.",
+        "description": "Balaji Vista is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
+        "rera_id": "P000000000",
+        "starting_price": " 2.1 Cr",
+        "contact_number": "(022) 27565742 /43",
+        "site_address": "1003-1004, Shelton Cubix, Plot No.87, CBD Belapur, Navi Mumbai-400614"
+    },
+    {
+        "id": 3,
+        "title": "Balaji Park",
+        "slug": "balaji-park",
+        "status": "ongoing",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/balaji_park_01.jpg",
+        "gallery": [
+            "/uploads/project_imgs/common_gallery_03.jpg",
+            "/uploads/project_imgs/balaji_park_01.jpg",
+            "/uploads/project_imgs/common_gallery_04.jpg",
+            "/uploads/project_imgs/balaji_park_02.jpg"
+        ],
+        "location": "Nerul, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima.",
+        "description": "Balaji Park is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
+        "rera_id": "P000000000",
+        "starting_price": " 1.1 Cr",
+        "contact_number": "(022) 27565742 /43",
+        "site_address": "1003-1004, Shelton Cubix, Plot No.87, CBD Belapur, Navi Mumbai-400614"
+    },
+    {
+        "id": 4,
+        "title": "Balaji Skyline",
+        "slug": "balaji-skyline",
+        "status": "upcoming",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/balaji_skyline_01.jpg",
+        "gallery": [
+            "/uploads/project_imgs/common_gallery_01.jpg",
+            "/uploads/project_imgs/balaji_skyline_01.jpg",
+            "/uploads/project_imgs/balaji_skyline_02.jpg",
+            "/uploads/project_imgs/common_gallery_02.jpg"
         ],
         "location": "Nerul, Navi Mumbai",
         "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima.",

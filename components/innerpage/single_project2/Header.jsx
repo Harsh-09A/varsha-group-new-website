@@ -16,7 +16,7 @@ function Header({data}) {
         </div>
       </div>
       <img
-        src="/innerpages/assets/img/s_project2/balaji-sapphire-2.jpg"
+        src={data.featured_image}
         alt=""
         className="bg img-cover"
         data-speed="1.25"
