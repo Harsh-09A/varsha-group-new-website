@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import data from "../../../data/innerpages/portfolio/latestcases";
+// import data from "../../../data/innerpages/portfolio/latestcases";
 
-function LatestCases() {
+function LatestCases({data}) {
   const [activeFilter, setActiveFilter] = useState("All");
 
   const filteredData =
@@ -40,9 +40,9 @@ function LatestCases() {
                 <button
                   type="button"
                   className={`filter-btn ${
-                    activeFilter === "Completed" ? "active" : ""
+                    activeFilter === "completed" ? "active" : ""
                   }`}
-                  onClick={() => setActiveFilter("Completed")}
+                  onClick={() => setActiveFilter("completed")}
                 >
                   Completed
                 </button>
@@ -50,9 +50,9 @@ function LatestCases() {
                 <button
                   type="button"
                   className={`filter-btn ${
-                    activeFilter === "Ongoing" ? "active" : ""
+                    activeFilter === "ongoing" ? "active" : ""
                   }`}
-                  onClick={() => setActiveFilter("Ongoing")}
+                  onClick={() => setActiveFilter("ongoing")}
                 >
                   Ongoing
                 </button>
@@ -60,9 +60,9 @@ function LatestCases() {
                 <button
                   type="button"
                   className={`filter-btn ${
-                    activeFilter === "Upcoming" ? "active" : ""
+                    activeFilter === "upcoming" ? "active" : ""
                   }`}
-                  onClick={() => setActiveFilter("Upcoming")}
+                  onClick={() => setActiveFilter("upcoming")}
                 >
                   Upcoming
                 </button>
@@ -109,7 +109,7 @@ function LatestCases() {
                       <div className="case-card">
                         <div className="img">
                           <img
-                            src={item.img}
+                            src={item.featured_image}
                             alt={item.title}
                             className="img-cover"
                           />
@@ -117,27 +117,20 @@ function LatestCases() {
 
                         <div className="info">
                           <div className="tags mb-30">
-                            <a href="#">{item.subTitle.split("<br />")[0]}</a>
+                            <a href="#">{item.location}</a>
 
-                            {item.subTitle.split("<br />")[1] && (
-                              <a href="#">{item.subTitle.split("<br />")[1]}</a>
-                            )}
+                      
                           </div>
 
                           <h3 className="title fsz-35 mb-20">
-                            <a href={`/projects/balaji-sapphire`} className="hover-orange1">
+                            <a href={`/projects/${item.slug}`} className="hover-orange1">
                               {item.title}
                             </a>
                           </h3>
 
                           <div className="text color-666">
-                            {item.desc.split("<br />")[0]}
-                            {item.desc.split("<br />")[1] && (
-                              <>
-                                <br />
-                                {item.desc.split("<br />")[1]}
-                              </>
-                            )}
+                            {item.excerpt}
+
                           </div>
                         </div>
                       </div>

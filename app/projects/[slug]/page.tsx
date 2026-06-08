@@ -13,6 +13,7 @@ import MainVideo from '@/components/innerpage/single_project2/MainVideo';
 import Contact from '@/components/innerpage/single_project2/Contact';
 import Footer from "@/components/home1/Footer";
 import { getProjectBySlug } from "@/services/projects-service";
+import { notFound } from "next/navigation";
 
 type Props = {
   params: Promise<{
@@ -26,7 +27,9 @@ export default async function SingleProjectPage({ params }: Props) {
 
   const project = await getProjectBySlug(slug);
 
-
+  if (!project) {
+    notFound();
+  }
 
   return (
     <>

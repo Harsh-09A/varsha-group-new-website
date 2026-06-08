@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import Script from "next/script";
 
@@ -7,8 +7,13 @@ import Header from "@/components/innerpage/portfolio/Header";
 import Navbar from "@/components/innerpage/Navbar";
 import Footer from "@/components/home1/Footer";
 import LatestCases from "@/components/innerpage/portfolio/LatestCases";
+import { getProjects } from "@/services/projects-service";
 
-export default function ProjectsPage() {
+export default async function ProjectsPage() {
+  const data =  await getProjects()
+  
+ 
+  
   return (
     <>
       <link rel="stylesheet" href="/innerpages/assets/css/innerpages.css" />
@@ -21,7 +26,7 @@ export default function ProjectsPage() {
           <Header />
 
           <main>
-            <LatestCases />
+            <LatestCases data = {data} />
           </main>
 
           <Footer />
