@@ -7,9 +7,7 @@ import Footer from "@/components/home1/Footer";
 import Navbar from "@/components/innerpage/Navbar";
 
 import Header from "@/components/innerpage/loan-calculator/Header";
-import Content from "@/components/innerpage/loan-calculator/Content";
 import EMICalculator from "@/components/innerpage/loan-calculator/EMICalculator";
-
 
 export default function LoanCalculatorPage() {
   return (
@@ -34,8 +32,7 @@ export default function LoanCalculatorPage() {
           <Header />
 
           <main>
-           <EMICalculator />
-
+            <EMICalculator />
           </main>
 
           <Footer />

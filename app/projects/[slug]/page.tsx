@@ -7,7 +7,6 @@ import Navbar from "@/components/innerpage/Navbar";
 import Header from '@/components/innerpage/single_project2/Header';
 import MainInfo from '@/components/innerpage/single_project2/MainInfo';
 import Gallery from '@/components/innerpage/single_project2/Gallery';
-import Testimonials from '@/components/innerpage/single_project2/Testimonials';
 import Amenities from '@/components/innerpage/single_project2/Amenities';
 import MainVideo from '@/components/innerpage/single_project2/MainVideo';
 import Contact from '@/components/innerpage/single_project2/Contact';

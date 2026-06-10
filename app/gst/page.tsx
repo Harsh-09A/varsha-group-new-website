@@ -34,8 +34,6 @@ export default function GSTPage() {
           <main>
             <GST_Info />
             <Points />
-           
-           
           </main>
 
           <Footer />

@@ -3,11 +3,9 @@
 import Script from "next/script";
 
 import Loader from "@/components/common/Loader";
-import Header from "@/components/innerpage/blog/Header";
 import Navbar from "@/components/innerpage/Navbar";
 import Slider from "@/components/innerpage/single_post/Slider";
 import Content from "@/components/innerpage/single_post/Content";
-import Comments from "@/components/innerpage/single_post/Comments";
 import Footer from "@/components/home1/Footer";
 
 export default function SingleBlogPage() {

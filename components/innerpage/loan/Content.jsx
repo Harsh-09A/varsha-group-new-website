@@ -103,7 +103,7 @@ function Content() {
             <div className="col-lg-6">
               <div className="loan-docs__card">
                 <div className="loan-docs__icon-box">
-                  <i class="fa-solid fa-id-badge"></i>
+                  <i className="fa-solid fa-id-badge"></i>
                 </div>
                 <h3 className="loan-docs__title"> Salaried Applicants </h3>
                 <ul className="loan-docs__list">

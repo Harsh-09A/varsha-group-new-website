@@ -9,7 +9,6 @@ import Navbar from "@/components/innerpage/Navbar";
 import Header from "@/components/innerpage/loan/Header";
 import Content from "@/components/innerpage/loan/Content";
 
-
 export default function Loan() {
   return (
     <>
@@ -33,10 +32,7 @@ export default function Loan() {
           <Header />
 
           <main>
-            <Content/>
- 
-           
-           
+            <Content />
           </main>
 
           <Footer />

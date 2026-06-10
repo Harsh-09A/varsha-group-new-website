@@ -7,7 +7,6 @@ import Header from "@/components/innerpage/about/Header";
 import Navbar from "@/components/innerpage/Navbar";
 import About from "@/components/innerpage/about/About";
 import Process from "@/components/innerpage/about/Process";
-import Projects from "@/components/innerpage/about/Projects";
 import Awards from "@/components/innerpage/about/Awards";
 import Footer from "@/components/home1/Footer";
 
