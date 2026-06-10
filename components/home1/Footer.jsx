@@ -76,6 +76,9 @@ function Footer() {
                   <li>
                     <a href="/nri"> NRI Corner</a>
                   </li>
+                  <li>
+                    <a href="/loan-calculator"> Loan Calculator</a>
+                  </li>
                 </ul>
               </div>
 
