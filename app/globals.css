@@ -10,9 +10,8 @@
   -o-transform: translate3d(0px, -50px, 0px) !important;
 }
 
-.tc-footer-style1 .branch-card h5{
-    color: var(--color-orange1);
-
+.tc-footer-style1 .branch-card h5 {
+  color: var(--color-orange1);
 }
 
 /* Filter Container */
@@ -49,7 +48,7 @@
 /* Active */
 .filter-btn.active {
   color: #fff;
-  background:var(--color-orange1);
+  background: var(--color-orange1);
   box-shadow: 0 8px 20px rgba(255, 107, 53, 0.25);
 }
 
@@ -59,14 +58,12 @@
   outline-offset: 2px;
 }
 
-
-
 .inner-pages-style1 .inner-navbar-style1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
 }
 
 /* Amenenities */
@@ -133,10 +130,171 @@
   margin: 0;
 }
 
-.custom_bg{
+.custom_bg {
+  position: relative;
+  background-image: linear-gradient(to bottom, #f1eee9, #f1eee999, #f1eee9);
+  border-radius: 50px 50px 0 0;
+}
 
-    position: relative;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#F1EEE9), color-stop(#F1EEE999), to(transparent));
-    background-image: linear-gradient(to bottom, #F1EEE9, #F1EEE999, transparent);
-    border-radius: 50px 50px 0 0;
+/* ==========================
+   Loan Documents Section
+   Light Luxury Theme
+   ========================== */
+
+.loan-docs {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(
+    180deg,
+    #f1eee9,
+    #f1eee999,
+    #f1eee9
+  );
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+/* Badge */
+.loan-docs__badge {
+  display: inline-block;
+  padding: 10px 22px;
+  border-radius: 50px;
+  background: linear-gradient(
+    135deg,
+    #ff481f,
+    #ff6b47
+  );
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* Heading */
+.loan-docs__heading {
+  color: #111111;
+  font-weight: 700;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+/* Sub Heading */
+.loan-docs__subheading {
+  color: rgba(17, 17, 17, 0.7);
+  max-width: 650px;
+  margin: auto;
+}
+
+/* Card */
+.loan-docs__card {
+  position: relative;
+  height: 100%;
+  padding: 35px;
+  border-radius: 24px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+
+/* Top Highlight */
+.loan-docs__card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    130deg,
+    rgba(255, 72, 31, 0.08),
+    transparent 40%
+  );
+  pointer-events: none;
+}
+
+/* Hover Effect */
+.loan-docs__card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(255, 72, 31, 0.2);
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.12),
+    0 0 20px rgba(255, 72, 31, 0.08);
+}
+
+/* Icon Box */
+.loan-docs__icon-box {
+  width: 65px;
+  height: 65px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  background: linear-gradient(
+    135deg,
+    #ff481f,
+    #ff7a59
+  );
+  box-shadow: 0 10px 20px rgba(255, 72, 31, 0.2);
+}
+
+/* Icon */
+.loan-docs__icon-box i {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+/* Card Title */
+.loan-docs__title {
+  color: #111111;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* List */
+.loan-docs__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.loan-docs__list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: rgba(17, 17, 17, 0.8);
+  line-height: 1.7;
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+
+/* List Icon */
+.loan-docs__list li i {
+  color: #ff481f;
+  font-size: 16px;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .loan-docs__heading {
+    font-size: 30px;
+  }
+
+  .loan-docs__card {
+    padding: 25px;
+  }
+
+  .loan-docs__title {
+    font-size: 22px;
+  }
+
+  .loan-docs__icon-box {
+    width: 55px;
+    height: 55px;
+  }
+
+  .loan-docs__icon-box i {
+    font-size: 24px;
+  }
 }

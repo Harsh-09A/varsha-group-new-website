@@ -62,19 +62,19 @@ function Footer() {
                 <h5 className="mb-20 mt-5 mt-lg-0 fw-600"> Buyer's Guide </h5>
                 <ul className="footer-links">
                   <li>
-                    <a href="#"> GST </a>
+                    <a href="/gst"> GST </a>
                   </li>
                   <li>
-                    <a href="#"> Stamp Duty & Registration </a>
+                    <a href="/stamp-duty"> Stamp Duty & Registration </a>
                   </li>
                   <li>
-                    <a href="#"> Loans</a>
+                    <a href="/loan"> Loans</a>
                   </li>
                   <li>
-                    <a href="#"> PMAY</a>
+                    <a href="/pmay"> PMAY</a>
                   </li>
                   <li>
-                    <a href="#"> NRI Corner</a>
+                    <a href="/nri"> NRI Corner</a>
                   </li>
                 </ul>
               </div>
