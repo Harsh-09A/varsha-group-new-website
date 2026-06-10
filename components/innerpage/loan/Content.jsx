@@ -67,33 +67,33 @@ function Content() {
                 <h3 className="loan-docs__title"> Self-Employed Applicants </h3>
                 <ul className="loan-docs__list">
                   <li>
-                    <i className="bi bi-check-circle-fill"></i> Updated passbook
+                    <i className="fa-solid fa-circle-check"></i> Updated passbook
                     or bank statement for the last 6 months.
                   </li>
                   <li>
-                    <i className="bi bi-check-circle-fill"></i> Xerox copy of
+                    <i className="fa-solid fa-circle-check"></i> Xerox copy of
                     ration card.
                   </li>
                   <li>
-                    <i className="bi bi-check-circle-fill"></i> Business profile
+                    <i className="fa-solid fa-circle-check"></i> Business profile
                     including clients, suppliers, employee strength and
                     operational details.
                   </li>
                   <li>
-                    <i className="bi bi-check-circle-fill"></i> Partnership deed
+                    <i className="fa-solid fa-circle-check"></i> Partnership deed
                     (if applicable).
                   </li>
                   <li>
-                    <i className="bi bi-check-circle-fill"></i> Profit & Loss
+                    <i className="fa-solid fa-circle-check"></i> Profit & Loss
                     Account, Balance Sheet and Income Computation certified by
                     CA for 3 years.
                   </li>
                   <li>
-                    <i className="bi bi-check-circle-fill"></i> Income Tax
+                    <i className="fa-solid fa-circle-check"></i> Income Tax
                     Return filing statements for the last 3 years.
                   </li>
                   <li>
-                    <i className="bi bi-check-circle-fill"></i> Annual reports,
+                    <i className="fa-solid fa-circle-check"></i> Annual reports,
                     remuneration certificate and board resolution for Pvt. Ltd.
                     companies.
                   </li>
@@ -108,23 +108,23 @@ function Content() {
                 <h3 className="loan-docs__title"> Salaried Applicants </h3>
                 <ul className="loan-docs__list">
                   <li>
-                    <i className="bi bi-check-circle-fill"></i> Latest salary
+                    <i className="fa-solid fa-circle-check"></i> Latest salary
                     certificate or original salary slip.
                   </li>
                   <li>
-                    <i className="bi bi-check-circle-fill"></i> Form No. 16A
+                    <i className="fa-solid fa-circle-check"></i> Form No. 16A
                     (TDS Form) from employer.
                   </li>
                   <li>
-                    <i className="bi bi-check-circle-fill"></i> Passport-size
+                    <i className="fa-solid fa-circle-check"></i> Passport-size
                     photograph of applicant and co-applicant.
                   </li>
                   <li>
-                    <i className="bi bi-check-circle-fill"></i> Voter ID /
+                    <i className="fa-solid fa-circle-check"></i> Voter ID /
                     Company ID / Passport / Ration Card.
                   </li>
                   <li>
-                    <i className="bi bi-check-circle-fill"></i> Updated bank
+                    <i className="fa-solid fa-circle-check"></i> Updated bank
                     statement or passbook for the last 6 months.
                   </li>
                 </ul>
