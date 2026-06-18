@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Balaji Sapphire",
         "slug": "balaji-sapphire",
-        "status": "ongoing",
+        "status": "completed",
         "category": "residential",
         "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
         "gallery": [
@@ -86,5 +86,135 @@
         "configurations": " 2 BHK",
         "contact_number": "+918655306164",
         "site_address": "1003-1004, Shelton Cubix, Plot No.87, CBD Belapur, Navi Mumbai-400614"
+    },
+    {
+        "id": 5,
+        "title": "BALAJI EXOTICA",
+        "slug": "balaji-exotica",
+        "status": "completed",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
+        "location": "Kopar Khairane, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+    },
+    {
+        "id": 6,
+        "title": "BALAJI HEIGHTS",
+        "slug": "balaji-heights",
+        "status": "completed",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
+        "location": "Sanpada, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+    },
+    {
+        "id": 7,
+        "title": "BALAJI SHRUSHTI",
+        "slug": "balaji-shrushti",
+        "status": "completed",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
+        "location": "Nerul, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+    },
+    {
+        "id": 8,
+        "title": "BALAJI DARSHAN",
+        "slug": "balaji-darshan",
+        "status": "completed",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
+        "location": "Ulwe, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+    },
+    {
+        "id": 9,
+        "title": "BALAJI RESIDENCY",
+        "slug": "balaji-residency",
+        "status": "completed",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
+        "location": "Kharghar, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+    },
+    {
+        "id": 10,
+        "title": "THE EMPIRE",
+        "slug": "the-empire",
+        "status": "completed",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
+        "location": "Kharghar, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+    },
+    {
+        "id": 11,
+        "title": "BALAJI HERITAGE",
+        "slug": "balaji-heritage",
+        "status": "completed",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
+        "location": "Kharghar, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+    },
+    {
+        "id": 12,
+        "title": "TIRUPATI CORNER",
+        "slug": "tirupati-corner",
+        "status": "completed",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
+        "location": "Kharghar, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+    },
+    {
+        "id": 13,
+        "title": "BALAJI CREST",
+        "slug": "balaji-crest",
+        "status": "completed",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
+        "location": "Roadpali, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+    },
+    {
+        "id": 14,
+        "title": "BALAJI AVENUE",
+        "slug": "balaji-avenue",
+        "status": "completed",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
+        "location": "Kamothe, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+    },
+    {
+        "id": 15,
+        "title": "BALAJI NIWAS",
+        "slug": "balaji-niwas",
+        "status": "completed",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
+        "location": "Kamothe, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+    },
+    {
+        "id": 16,
+        "title": "BALAJI COMPLEX",
+        "slug": "balaji-complex",
+        "status": "completed",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
+        "location": "Nerul, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+    },
+        {
+        "id": 16,
+        "title": "Nerul Project",
+        "slug": "nerul-project",
+        "status": "upcoming",
+        "category": "residential",
+        "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
+        "location": "Nerul, Navi Mumbai",
+        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
     }
 ]

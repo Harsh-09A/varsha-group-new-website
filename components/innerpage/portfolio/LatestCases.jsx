@@ -4,13 +4,10 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 // import data from "../../../data/innerpages/portfolio/latestcases";
 
-function LatestCases({data}) {
-  const [activeFilter, setActiveFilter] = useState("All");
+function LatestCases({ data }) {
+  const [activeFilter, setActiveFilter] = useState("ongoing");
 
-  const filteredData =
-    activeFilter === "All"
-      ? data
-      : data.filter((item) => item.status === activeFilter);
+  const filteredData = data.filter((item) => item.status === activeFilter);
 
   return (
     <section className="tc-latest-cases-style1">
@@ -27,16 +24,6 @@ function LatestCases({data}) {
               data-wow-delay="0.2s"
             >
               <div className="links">
-                <button
-                  type="button"
-                  className={`filter-btn ${
-                    activeFilter === "All" ? "active" : ""
-                  }`}
-                  onClick={() => setActiveFilter("All")}
-                >
-                  All
-                </button>
-
                 <button
                   type="button"
                   className={`filter-btn ${
@@ -75,12 +62,12 @@ function LatestCases({data}) {
               data-wow-delay="0.4s"
             >
               <div className="row">
-                <AnimatePresence initial={false} >
+                <AnimatePresence initial={false}>
                   {filteredData.map((item, i) => (
                     <motion.div
                       key={item.id || i}
                       layout="position"
-                       layoutId={item.title}
+                      layoutId={item.title}
                       className={`col-lg-4 ${item.status}`}
                       initial={{
                         opacity: 0,
@@ -99,7 +86,7 @@ function LatestCases({data}) {
                       }}
                       transition={{
                         duration: 0.6,
-                          ease: "easeInOut",
+                        ease: "easeInOut",
                         layout: {
                           duration: 0.8,
                           ease: [0.22, 1, 0.36, 1],
@@ -117,21 +104,23 @@ function LatestCases({data}) {
 
                         <div className="info">
                           <div className="tags mb-30">
-                            <a href="#">{item.location}</a>
-
-                      
+                            <a>{item.location}</a>
                           </div>
 
                           <h3 className="title fsz-35 mb-20">
-                            <a href={`/projects/${item.slug}`} className="hover-orange1">
-                              {item.title}
-                            </a>
+                            {item.status === "ongoing" ? (
+                              <a
+                                href={`/projects/${item.slug}`}
+                                className="hover-orange1"
+                              >
+                                {item.title}
+                              </a>
+                            ) : (
+                              <span>{item.title}</span>
+                            )}
                           </h3>
 
-                          <div className="text color-666">
-                            {item.excerpt}
-
-                          </div>
+                          <div className="text color-666">{item.excerpt}</div>
                         </div>
                       </div>
                     </motion.div>
