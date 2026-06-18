@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Balaji Sapphire",
         "slug": "balaji-sapphire",
-        "status": "completed",
+        "status": "ongoing",
         "category": "residential",
         "featured_image": "/uploads/project_imgs/Sapphire_Featured.jpg",
         "gallery": [
@@ -17,14 +17,15 @@
         "description": "Balaji Sapphire is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
         "rera_id": "P000000000",
         "starting_price": " 1.5 Cr",
-        "contact_number": "(022) 27565742 /43",
+        "configurations": " 2 BHK",
+        "contact_number": "+919967241588",
         "site_address": "1003-1004, Shelton Cubix, Plot No.87, CBD Belapur, Navi Mumbai-400614"
     },
     {
         "id": 2,
         "title": "Balaji Vista",
         "slug": "balaji-vista",
-        "status": "completed",
+        "status": "ongoing",
         "category": "residential",
         "featured_image": "/uploads/project_imgs/Vista_01.jpg",
         "gallery": [
@@ -38,7 +39,8 @@
         "description": "Balaji Vista is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
         "rera_id": "P000000000",
         "starting_price": " 2.1 Cr",
-        "contact_number": "(022) 27565742 /43",
+        "configurations": " 2 BHK",
+        "contact_number": "+918928060047",
         "site_address": "1003-1004, Shelton Cubix, Plot No.87, CBD Belapur, Navi Mumbai-400614"
     },
     {
@@ -59,14 +61,15 @@
         "description": "Balaji Park is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
         "rera_id": "P000000000",
         "starting_price": " 1.1 Cr",
-        "contact_number": "(022) 27565742 /43",
+        "configurations": " 2 BHK",
+        "contact_number": "+919136955744",
         "site_address": "1003-1004, Shelton Cubix, Plot No.87, CBD Belapur, Navi Mumbai-400614"
     },
     {
         "id": 4,
         "title": "Balaji Skyline",
         "slug": "balaji-skyline",
-        "status": "upcoming",
+        "status": "ongoing",
         "category": "residential",
         "featured_image": "/uploads/project_imgs/balaji_skyline_01.jpg",
         "gallery": [
@@ -78,9 +81,10 @@
         "location": "Nerul, Navi Mumbai",
         "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima.",
         "description": "Balaji Sapphire is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
-        "rera_id": "P000000000",
+        "rera_id": "P52000052548",
         "starting_price": " 1.5 Cr",
-        "contact_number": "(022) 27565742 /43",
+        "configurations": " 2 BHK",
+        "contact_number": "+918655306164",
         "site_address": "1003-1004, Shelton Cubix, Plot No.87, CBD Belapur, Navi Mumbai-400614"
     }
 ]

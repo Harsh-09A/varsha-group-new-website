@@ -24,7 +24,7 @@ function Process() {
                         data-bs-target="#collapseOne"
                       >
                         {/* <span className="num"> 1 / </span> */}
-                        <h3> 20+ Years of Industry Experience </h3>
+                        <h3> 23+ Years of Industry Experience </h3>
                       </button>
                     </div>
                     <div
@@ -49,7 +49,7 @@ function Process() {
                         data-bs-target="#collapseTwo"
                       >
                         {/* <span className="num"> 2 / </span> */}
-                        <h3> 30+ Projects Successfully Delivered </h3>
+                        <h3> 20+ Projects Successfully Delivered </h3>
                       </button>
                     </div>
                     <div
@@ -74,7 +74,7 @@ function Process() {
                         data-bs-target="#collapseThree"
                       >
                         {/* <span className="num"> 3 / </span> */}
-                        <h3> 8 Projects Currently Under Development </h3>
+                        <h3> 4 Projects Currently Under Development </h3>
                       </button>
                     </div>
                     <div
@@ -126,7 +126,7 @@ function Process() {
                         data-bs-target="#collapseFive"
                       >
                         {/* <span className="num"> 5 / </span> */}
-                        <h3> 1 Million+ Sq. Ft. Developed </h3>
+                        <h3> 8 Lakhs+ Sq. Ft. Developed </h3>
                       </button>
                     </div>
                     <div

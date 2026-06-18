@@ -6,7 +6,7 @@ function Chat() {
       <div className="container">
         <div className="content">
           <a href="#" className="xl-text">
-            hello@varshagroup.in
+            sales@varshagroup.in
           </a>
           <h5 className="mb-50 lh-5">
             Let us help your dream home become reality

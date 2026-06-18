@@ -2,14 +2,41 @@ import React from "react";
 
 function Contact({ data }) {
   return (
-    <section className="tc-contact-style2">
+    <section className="tc-contact-style2" id="project_contact_section" >
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-lg-4">
             <div className="info wow fadeInUp slow" data-wow-delay="0.2s">
               <h3 className="fsz-45 fw-500">Let us helps build your dream!</h3>
-              <h6 className="fsz-21 fw-400 mt-50"> {data.contact_number}</h6>
-              <p className="fsz-14 color-666 mt-15">{data.site_address}</p>
+
+              <h6 className="fsz-21 fw-400 mt-50 d-flex align-items-center gap-2">
+                <i className="fas fa-phone "></i>
+                {data.contact_number}
+              </h6>
+
+              <p className="fsz-14 color-666 mt-15"> <b className="text-black">Site Address :</b> {data.site_address}</p>
+
+              <div className="d-flex gap-3 mt-4">
+                {/* Call Button */}
+                <a
+                  href={`tel:${data.contact_number}`}
+                  className="btn btn-dark bg-orange1 rounded-pill border-0"
+                >
+                  <i className="fas fa-phone me-2"></i>
+                  Call Now
+                </a>
+
+                {/* WhatsApp Button */}
+                <a
+                  href={`https://wa.me/${data.contact_number}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-success rounded-pill"
+                >
+                  <i className="fab fa-whatsapp me-2"></i>
+                  WhatsApp
+                </a>
+              </div>
             </div>
           </div>
           <div className="col-lg-6">

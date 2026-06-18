@@ -34,7 +34,7 @@ function MainInfo({data}) {
                 <span className="color-666"> RERA ID: </span> {data.rera_id}
               </li>
               <li className="fsz-18">
-                <span className="color-666"> Starting price: </span> {data.starting_price}
+                <span className="color-666"> Configurations: </span> {data.configurations}
               </li>
               <li className="fsz-18 text-capitalize">
                 <span className="color-666"> Status: </span> {data.status}
