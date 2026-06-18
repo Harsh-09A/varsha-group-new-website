@@ -29,7 +29,7 @@ function Header() {
                       </defs>
                       <text>
                         <textPath xlinkHref="#textcircle" textLength="900">
-                          • Years of experience • since 1995
+                          • Years of experience • since 2003
                         </textPath>
                       </text>
                     </svg>
