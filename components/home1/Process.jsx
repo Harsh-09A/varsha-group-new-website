@@ -144,11 +144,11 @@ function Process() {
                   </div>
                 </div>
                 <a
-                  href="#"
+                  href="/projects"
                   className="butn border rounded-pill mt-80 color-orange1 border-orange1 hover-bg-orange1"
                 >
                   <span>
-                    Contact Us
+                   View Our Projects 
                     <i className="small ms-1 ti-arrow-top-right"></i>
                   </span>
                 </a>
@@ -158,7 +158,7 @@ function Process() {
               <div className="img wow">
                 <img
                   // src="/home1/assets/img/process.jpg"
-                  src="/varsha/Varsha-Group-building-trust.png"
+                  src="/varsha/Varsha-Group-building-trust.jpeg"
                   alt=""
                   className="img-cover"
                 />

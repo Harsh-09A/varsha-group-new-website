@@ -13,9 +13,8 @@ function Footer() {
                   alt=""
                   className="img-fluid mb-3"
                 />
-                <div className="text fsz-20 text-white lh-3 fw-600">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Eaque quae suscipit accusamus cum
+                <div className="text fsz-20 text-white lh-3 ">
+                 Varsha Group is a forward-thinking construction and development company with a proud legacy of over 23+ years of consistent performance, trust, and customer satisfaction.
                 </div>
                 <div className="foot-social mt-50">
                   <a href="https://www.facebook.com/VarshaGroupDevelopers/">
@@ -50,11 +49,9 @@ function Footer() {
                     <a href="#"> sales@varshagroup.in </a>
                   </li>
                   <li>
-                    <a href="#"> (022) 27565742 /43 </a>
+                    <a href="#"> +91 85919 55744</a>
                   </li>
-                  <li>
-                    <a href="#"> +91 9321255744 </a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -88,15 +85,15 @@ function Footer() {
         <div className="foot text-white">
           <div className="row">
             <div className="col-lg-6">
-              <p className="fsz-13">© 2025 Varsha Group. All Right Reserved</p>
+              <p className="fsz-13">© 2026 Varsha Group. All Right Reserved</p>
             </div>
             <div className="col-lg-6">
               <div className="foot-links mt-4 mt-lg-0">
-                <a href="#"> Home </a>
-                <a href="#"> About </a>
-                <a href="#"> Projects </a>
+                <a href="/"> Home </a>
+                <a href="/about"> About </a>
+                <a href="/projects"> Projects </a>
                 <a href="#"> Blogs </a>
-                <a href="#"> Contact </a>
+                <a href="/contact"> Contact </a>
               </div>
             </div>
           </div>

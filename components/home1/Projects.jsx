@@ -24,67 +24,11 @@ function Projects() {
         <div className="tabs-links mb-50">
           <div className="row align-items-center">
             <div className="col-lg-9">
-              {/* <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link active"
-                    id="pills-proj1-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-proj1"
-                    type="button"
-                  >
-                    Featured
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link"
-                    id="pills-proj2-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-proj2"
-                    type="button"
-                  >
-                    Architecture
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link"
-                    id="pills-proj3-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-proj1"
-                    type="button"
-                  >
-                    Interior
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link"
-                    id="pills-proj4-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-proj2"
-                    type="button"
-                  >
-                    Landscape
-                  </button>
-                </li>
-                <li className="nav-item" role="presentation">
-                  <button
-                    className="nav-link"
-                    id="pills-proj5-tab"
-                    data-bs-toggle="pill"
-                    data-bs-target="#pills-proj1"
-                    type="button"
-                  >
-                    Furniture
-                  </button>
-                </li>
-              </ul> */}
+              
             </div>
             <div className="col-lg-3 mt-4 mt-lg-0 text-lg-end">
               <a
-                href="#"
+                href="/projects"
                 className="butn border rounded-pill color-orange1 border-orange1 hover-bg-orange1"
               >
                 <span>
@@ -123,7 +67,7 @@ function Projects() {
                           </a>
                           <div className="info">
                             <div className="tags">
-                              <a href="#"> {item.status} </a>
+                              <a href="#" className="text-capitalize"> {item.status} </a>
                               <a href="#"> {item.location} </a>
                             </div>
                             <h3 className="title">

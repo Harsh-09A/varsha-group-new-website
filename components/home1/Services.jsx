@@ -120,11 +120,11 @@ function Services() {
             </div>
             <div className="text-center">
               <a
-                href="#"
+                href="/contact"
                 className="butn rounded-pill mt-80 hover-bg-black bg-orange1 text-white"
               >
                 <span>
-                  Get A Free Consultation
+                  Connect With Us
                   <i className="small ms-1 ti-arrow-top-right"></i>
                 </span>
               </a>

@@ -1,4 +1,28 @@
-import React from 'react';
+const testimonials = [
+  {
+    id: 1,
+    review:
+      "Varsha Balaji Skyline is truly well planned and impressive residential project. The 2 BHK configuration is very spacious and practical with good ventilation and proper vastu compliances and natural light, which instantly gives postive feel the moment you visit. What really made the experience smooth and trustworthy was professional support from the sales team. A Special mention to Ms.Charu Jadhav who handled everything with complete transparency and patience.",
+    name: "Nova Nimje",
+    location: "Bandra, Mumbai",
+  },
+  {
+    id: 2,
+    review:
+      "I recently booked a flat with this builder, and my overall experience has been very positive. The entire process—from project explanation to documentation—was handled smoothly and professionally. A special thanks to Charu and Vinit for being extremely supportive, responsive, and transparent throughout the booking process.",
+    name: "Swati Pandey",
+    location: "Kharghar, Navi Mumbai",
+  },
+  {
+    id: 3,
+    review:
+      "Balaji Skyline by Varsha Group is the best project in this locality with 100% Vastu Compliance which was our first priority. Good spacious 2BHK with decent size of balcony along with all basis amenities Special Thanks to Ms. Charu Jadhav and her team very co-operative, polite and explained everything in a detailed way. ",
+    name: "Durgesh Dodi",
+    location: "Panvel, Navi Mumbai",
+  },
+];
+
+
 
 function Testimonials() {
   return (
@@ -13,83 +37,42 @@ function Testimonials() {
               <i className="la la-quote-right"></i>
             </div>
           </div>
+
           <div className="col-lg-8">
             <div className="tc-clients-style1">
               <div className="clients-slider1">
                 <div className="swiper-wrapper">
-                  <div className="swiper-slide">
-                    <div className="clients-card">
-                      <div className="text fsz-45 fw-600 lh-2 js-splittext-lines">
-                        “One of the renowned builder in Navi Mumbai for best quality and workmanship taking lifestyle to the max level of magnificence trustworthy to buy property.”
-                      </div>
-                      <div className="author">
-                        {/* <div className="au-img">
-                          <img
-                            src="/home1/assets/img/team/team1.jpg"
-                            alt=""
-                            className="img-cover"
-                          />
-                        </div> */}
-                        <div className="au-inf">
-                          <h6 className="text-capitalize mb-2 fsz-16 fw-bold">
-                            Subhash Mahekar
-                          </h6>
-                          <p className="text-capitalize fsz-14 color-666">
-                            Bandra, Mumbai
-                          </p>
+                  {testimonials.map((item) => (
+                    <div className="swiper-slide" key={item.id}>
+                      <div className="clients-card">
+                        <div className="text fsz-45 fw-600 lh-2 js-splittext-lines">
+                          “{item.review}”
+                        </div>
+
+                        <div className="author">
+                          {/* <div className="au-img">
+                            <img
+                              src={item.image}
+                              alt={item.name}
+                              className="img-cover"
+                            />
+                          </div> */}
+
+                          <div className="au-inf">
+                            <h6 className="text-capitalize mb-2 fsz-16 fw-bold">
+                              {item.name}
+                            </h6>
+
+                            <p className="text-capitalize fsz-14 color-666">
+                              {item.location}
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="clients-card">
-                      <div className="text fsz-45 fw-600 lh-2 js-splittext-lines">
-                        “Quality, design n timely project completion is the main focus of the group. Very amicable and supporting attitude of all the group members. Wishing all the best for all future projects.”
-                      </div>
-                      <div className="author">
-                        {/* <div className="au-img">
-                          <img
-                            src="/home1/assets/img/team/team1.jpg"
-                            alt=""
-                            className="img-cover"
-                          />
-                        </div> */}
-                        <div className="au-inf">
-                          <h6 className="text-capitalize mb-2 fsz-16 fw-bold">
-                            Praveen Kumar Joshi
-                          </h6>
-                          <p className="text-capitalize fsz-14 color-666">
-                            Kharghar, Navi Mumbai
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="clients-card">
-                      <div className="text fsz-45 fw-600 lh-2 js-splittext-lines">
-                        “Great place to stay at affordable price, perfect flats with proper ventilation and space. Gives you good ambience with swimming pool, Gym, garden, children play area etc.”
-                      </div>
-                      <div className="author">
-                        {/* <div className="au-img">
-                          <img
-                            src="/home1/assets/img/team/team1.jpg"
-                            alt=""
-                            className="img-cover"
-                          />
-                        </div> */}
-                        <div className="au-inf">
-                          <h6 className="text-capitalize mb-2 fsz-16 fw-bold">
-                           Manisha Choudhary
-                          </h6>
-                          <p className="text-capitalize fsz-14 color-666">
-                            Panvel, Navi Mumbai
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  ))}
                 </div>
+
                 <div className="slider-controls">
                   <div className="swiper-button-prev"></div>
                   <div className="swiper-pagination"></div>
@@ -100,6 +83,7 @@ function Testimonials() {
           </div>
         </div>
       </div>
+
       <div className="marq-slider">
         <div className="swiper-wrapper">
           <div className="swiper-slide">
