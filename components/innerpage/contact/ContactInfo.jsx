@@ -40,9 +40,9 @@ function ContactInfo() {
           </div>
           <div className="col-lg-6">
             <div className="social-icons mt-50 text-lg-end">
-              <a href="#">
+              {/* <a href="#">
                 <i className="fab fa-x-twitter"></i>
-              </a>
+              </a> */}
               <a href="https://www.facebook.com/VarshaGroupDevelopers/">
                 <i className="fab fa-facebook-f"></i>
               </a>
