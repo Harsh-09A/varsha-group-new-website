@@ -1,6 +1,19 @@
-import React from "react";
-import data1 from "../../data/home1/projects/projects1";
+// import data1 from "../../data/home1/projects/projects1";
+
+import { getProjectsByStatus } from "@/services/projects-service";
+import { useEffect, useState } from "react";
+
 function Projects() {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    async function loadProjects() {
+      const data1 = await getProjectsByStatus("ongoing");
+      setProjects(data1);
+    }
+
+    loadProjects();
+  }, []);
   return (
     <section className="tc-projects-style1">
       <div className="container">
@@ -83,7 +96,6 @@ function Projects() {
           </div>
         </div>
 
-
         <div className="projects">
           <div className="tab-content" id="pills-tabContent">
             <div
@@ -95,7 +107,7 @@ function Projects() {
               <div className="projects-content float_box_container">
                 <div className="projects-slider">
                   <div className="swiper-wrapper">
-                    {data1.map((item, i) => (
+                    {projects.map((item, i) => (
                       <div key={i} className="swiper-slide">
                         <div className="project-card">
                           <a
@@ -103,12 +115,16 @@ function Projects() {
                             className="img"
                             data-fancybox="proj"
                           >
-                            <img src={item.img} alt="" className="img-cover" />
+                            <img
+                              src={item.featured_image}
+                              alt=""
+                              className="img-cover"
+                            />
                           </a>
                           <div className="info">
                             <div className="tags">
-                              <a href="#"> {item.sub1} </a>
-                              <a href="#"> {item.sub2} </a>
+                              <a href="#"> {item.status} </a>
+                              <a href="#"> {item.location} </a>
                             </div>
                             <h3 className="title">
                               <a href="#"> {item.title} </a>
@@ -134,7 +150,7 @@ function Projects() {
               <div className="projects-content float_box_container">
                 <div className="projects-slider">
                   <div className="swiper-wrapper">
-                    {data1.map((item, i) => (
+                    {projects.map((item, i) => (
                       <div key={i} className="swiper-slide">
                         <div className="project-card">
                           <a

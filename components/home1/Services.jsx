@@ -4,9 +4,9 @@ function Services() {
   return (
     <>
       <section className="tc-services-style1">
-        <div className="content section-padding section-padding-x">
+        <div className="content section-padding section-padding-x pt-1">
           <div className="container">
-            <div className="title mb-80 text-center">
+            <div className="title mb-50 text-center">
               <p className="color-666 text-uppercase wow"> Why Choose Us </p>
             </div>
             <div className="services">
@@ -133,7 +133,7 @@ function Services() {
         </div>
       </section>
       <div className="ser-img">
-        <img src="/varsha/Varsha-Group-Skyline.png" alt="" />
+        <img src="/varsha/Varsha-Group-Skyline.jpeg" alt="" />
       </div>
     </>
   );

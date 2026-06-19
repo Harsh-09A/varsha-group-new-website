@@ -1,16 +1,17 @@
+import Link from 'next/link';
 import React from 'react';
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark inner-navbar-style1">
       <div className="container-fluid">
-        <a className="navbar-brand me-lg-5" href="#">
+        <Link className="navbar-brand me-lg-5" href="/">
           <img
             src="/home1/assets/img/logo_new.png"
             alt=""
             className="logo"
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
