@@ -7,7 +7,7 @@ function Awards() {
         <h2 className="fsz-45 fw-500 text-center mb-30">
           Our 
           <span className="sub-font fst-italic color-orange1 fw-400 ps-2">
-            Awards
+            Partners
           </span>
         </h2>
         <div className="awards">
@@ -22,8 +22,8 @@ function Awards() {
                     <img src={item.img} alt="" />
                   </div>
                   <h5 className="fsz-24 sub-font title">{item.title}</h5>
-                  <a href="#" className="color-666 text-capitalize">
-                    {item.subTitle}
+                  <a href={item.subTitle} className="color-666 text-capitalize">
+                    View Website
                   </a>
                 </div>
               </div>

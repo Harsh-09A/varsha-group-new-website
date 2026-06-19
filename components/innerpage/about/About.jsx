@@ -63,7 +63,7 @@ function About() {
                 className="number-card wow zoomIn slow"
                 data-wow-delay="0.6s"
               >
-                <h2 className="numb"> 50+ </h2>
+                <h2 className="numb"> 20+ </h2>
                 <small> projects done </small>
               </div>
             </div>

@@ -26,11 +26,9 @@ function ContactInfo() {
                     <h6 className="fsz-24 mb-15 fw-bold"> Connect </h6>
                     <ul className="color-666 lh-6">
                       <li>
-                        <a href="#">(022) 27565742 /43</a>
+                        <a href="#">+91 85919 55744</a>
                       </li>
-                      <li>
-                        <a href="#"> +91 9321255744</a>
-                      </li>
+
                       <li>
                         <a href="#"> sales@varshagroup.in </a>
                       </li>
@@ -45,18 +43,16 @@ function ContactInfo() {
               <a href="#">
                 <i className="fab fa-x-twitter"></i>
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/VarshaGroupDevelopers/">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/varshagroup/">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="#">
-                <i className="fab fa-linkedin-in"></i>
+              <a href="https://web.whatsapp.com/send?phone=919321255744&text=Hello%21%20I%20would%20like%20to%20visit%20your%20project.">
+                <i className="fab fa-whatsapp"></i>
               </a>
-              <a href="#">
-                <i className="fab fa-youtube"></i>
-              </a>
+
             </div>
           </div>
         </div>

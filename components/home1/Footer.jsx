@@ -85,15 +85,11 @@ function Footer() {
         <div className="foot text-white">
           <div className="row">
             <div className="col-lg-6">
-              <p className="fsz-13">© 2026 Varsha Group. All Right Reserved</p>
+              <p className="fsz-13">© 2026 Varsha Group. All Right Reserved. Designed & Developed by  <a href="https://letsdigin.in/"> DigIN Media</a> </p>
             </div>
             <div className="col-lg-6">
-              <div className="foot-links mt-4 mt-lg-0">
-                <a href="/"> Home </a>
-                <a href="/about"> About </a>
-                <a href="/projects"> Projects </a>
-                <a href="#"> Blogs </a>
-                <a href="/contact"> Contact </a>
+              <div className="foot-links">
+                <img src="/varsha/logo5.png" alt="" />
               </div>
             </div>
           </div>

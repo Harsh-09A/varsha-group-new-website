@@ -13,7 +13,7 @@
             "/uploads/project_imgs/Sapphire_04.jpg"
         ],
         "location": "Nerul, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima.",
+        "excerpt": "Welcome to Balaji Sapphire, an extraordinary G+14 storeyed tower offering. 2BHK & 3BHK premium residences.",
         "description": "Balaji Sapphire is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
         "rera_id": "P000000000",
         "starting_price": " 1.5 Cr",
@@ -35,7 +35,7 @@
             "/uploads/project_imgs/common_gallery_01.jpg"
         ],
         "location": "Nerul, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima.",
+        "excerpt": "Balaji Sapphire is a statement of elegance, where architectural excellence meets luxury.",
         "description": "Balaji Vista is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
         "rera_id": "P000000000",
         "starting_price": " 2.1 Cr",
@@ -57,7 +57,7 @@
             "/uploads/project_imgs/new_imgs/balaji-park.jpg"
         ],
         "location": "Nerul, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima.",
+        "excerpt": "Varsha Balaji Park is a premium, under-construction residential complex developed by the Varsha Group.",
         "description": "Balaji Park is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
         "rera_id": "P000000000",
         "starting_price": " 1.1 Cr",
@@ -79,8 +79,8 @@
             "/uploads/project_imgs/common_gallery_02.jpg"
         ],
         "location": "Nerul, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima.",
-        "description": "Balaji Sapphire is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
+        "excerpt": "Varsha Balaji Skyline is a meticulously planned residential project by Varsha Group in Kharghar.",
+        "description": "Balaji Skyline is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
         "rera_id": "P52000052548",
         "starting_price": " 1.5 Cr",
         "configurations": " 2 BHK",
@@ -95,7 +95,7 @@
         "category": "residential",
         "featured_image": "/uploads/project_imgs/new_imgs/balaji-exotica.jpg",
         "location": "Kopar Khairane, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+        "excerpt": "Balaji Exotica is located at Koparkhairnane, the well-known residential neighborhood of Navi Mumbai."
     },
     {
         "id": 6,
@@ -105,7 +105,7 @@
         "category": "residential",
         "featured_image": "/uploads/project_imgs/new_imgs/balaji-heights.jpg",
         "location": "Sanpada, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+        "excerpt": "Balaji Heights in Sanpada offers luxurious and thoughtfully designed multi-storey apartments"
     },
     {
         "id": 7,
@@ -115,7 +115,7 @@
         "category": "residential",
         "featured_image": "/uploads/project_imgs/new_imgs/balaji-shrushti.jpg",
         "location": "Nerul, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+        "excerpt": "2 & 3 BHK premium homes at Varsha Balaji Shrushti in Nerul"
     },
     {
         "id": 8,
@@ -125,7 +125,7 @@
         "category": "residential",
         "featured_image": "/uploads/project_imgs/new_imgs/balaji-darshan.jpg",
         "location": "Ulwe, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+        "excerpt": "Balaji Darshan is a perfect combination of comfort and style."
     },
     {
         "id": 9,
@@ -135,7 +135,7 @@
         "category": "residential",
         "featured_image": "/uploads/project_imgs/new_imgs/balaji-residency.jpg",
         "location": "Kharghar, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+        "excerpt": "Varsha Balaji Residency is considered one of the best around Kharghar in Mumbai."
     },
     {
         "id": 10,
@@ -145,7 +145,7 @@
         "category": "residential",
         "featured_image": "/uploads/project_imgs/new_imgs/the-empire.jpg",
         "location": "Kharghar, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+        "excerpt": "Empire is considered to be the most prestigious of Kharghar, Navi Mumbai."
     },
     {
         "id": 11,
@@ -155,7 +155,7 @@
         "category": "residential",
         "featured_image": "/uploads/project_imgs/new_imgs/balaji-heritage.jpg",
         "location": "Kharghar, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+        "excerpt": "Varsha Balaji Heritage is considered one of the best around Kharghar in Mumbai."
     },
     {
         "id": 12,
@@ -165,7 +165,7 @@
         "category": "residential",
         "featured_image": "/uploads/project_imgs/new_imgs/tirupati-corner.jpg",
         "location": "Kharghar, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+        "excerpt": "Tirupati corner is a perfect combination of luxury and convenience."
     },
     {
         "id": 13,
@@ -175,7 +175,7 @@
         "category": "residential",
         "featured_image": "/uploads/project_imgs/new_imgs/balaji-crest.jpg",
         "location": "Roadpali, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+        "excerpt": "Balaji Crest is one of the popular residential project in Road Pali, Navi Mumbai."
     },
     {
         "id": 14,
@@ -185,7 +185,7 @@
         "category": "residential",
         "featured_image": "/uploads/project_imgs/new_imgs/balaji-avenue.jpg",
         "location": "Kamothe, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+        "excerpt": "Balaji Avenue Apartment in Sector 36 Kamothe, Navi Mumbai is a ready-to-move housing society."
     },
     {
         "id": 15,
@@ -195,7 +195,7 @@
         "category": "residential",
         "featured_image": "/uploads/project_imgs/new_imgs/balaji-niwas.jpg",
         "location": "Kamothe, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+        "excerpt": "Balaji Niwas is well made and has all the amenities you need."
     },
     {
         "id": 16,
@@ -205,16 +205,16 @@
         "category": "residential",
         "featured_image": "/uploads/project_imgs/new_imgs/balaji-complex.jpg",
         "location": "Nerul, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+        "excerpt": "Balaji Complex is a premium residential project in Seawoods, Navi Mumbai."
     },
     {
         "id": 16,
-        "title": "Nerul Project",
-        "slug": "nerul-project",
+        "title": "Airoli New Landmark",
+        "slug": "coming-soon",
         "status": "upcoming",
         "category": "residential",
         "featured_image": "/uploads/project_imgs/new_imgs/nerul-project.jpg",
-        "location": "Nerul, Navi Mumbai",
-        "excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quod commodi inventore sed minima."
+        "location": "Airoli, Navi Mumbai",
+        "excerpt": "Most Premium Address in Airoli - Coming Soon."
     }
 ]

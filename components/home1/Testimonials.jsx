@@ -2,21 +2,21 @@ const testimonials = [
   {
     id: 1,
     review:
-      "Varsha Balaji Skyline is truly well planned and impressive residential project. The 2 BHK configuration is very spacious and practical with good ventilation and proper vastu compliances and natural light, which instantly gives postive feel the moment you visit. What really made the experience smooth and trustworthy was professional support from the sales team. A Special mention to Ms.Charu Jadhav who handled everything with complete transparency and patience.",
+      "Varsha Balaji Skyline is truly well planned and impressive residential project. The 2 BHK configuration is very spacious and practical with good ventilation and proper vastu compliances and natural light.",
     name: "Nova Nimje",
     location: "Bandra, Mumbai",
   },
   {
     id: 2,
     review:
-      "I recently booked a flat with this builder, and my overall experience has been very positive. The entire process—from project explanation to documentation—was handled smoothly and professionally. A special thanks to Charu and Vinit for being extremely supportive, responsive, and transparent throughout the booking process.",
+      "I recently booked a flat with this builder, and my overall experience has been very positive. The entire process—from project explanation to documentation—was handled smoothly and professionally.",
     name: "Swati Pandey",
     location: "Kharghar, Navi Mumbai",
   },
   {
     id: 3,
     review:
-      "Balaji Skyline by Varsha Group is the best project in this locality with 100% Vastu Compliance which was our first priority. Good spacious 2BHK with decent size of balcony along with all basis amenities Special Thanks to Ms. Charu Jadhav and her team very co-operative, polite and explained everything in a detailed way. ",
+      "Balaji Skyline by Varsha Group is the best project in this locality with 100% Vastu Compliance which was our first priority. Good spacious 2BHK with decent size of balcony along with all basis amenities.",
     name: "Durgesh Dodi",
     location: "Panvel, Navi Mumbai",
   },
