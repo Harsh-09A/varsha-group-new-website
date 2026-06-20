@@ -10,8 +10,8 @@ function Gallery({ data }) {
           className="text fsz-24 mb-50 wow fadeInUp slow"
           data-wow-delay="0.2s"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
-          inventore.
+          Explore the stunning visuals that showcase the elegance,
+          craftsmanship, and lifestyle of our project.
         </div>
       </div>
 

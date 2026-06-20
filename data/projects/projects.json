@@ -15,11 +15,10 @@
         "location": "Nerul, Navi Mumbai",
         "excerpt": "Welcome to Balaji Sapphire, an extraordinary G+14 storeyed tower offering. 2BHK & 3BHK premium residences.",
         "description": "Balaji Sapphire is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
-        "rera_id": "P000000000",
-        "starting_price": " 1.5 Cr",
-        "configurations": " 2 BHK",
+        "rera_id": "P51700079088",
+        "configurations": " 2 BHK & 3 BHK",
         "contact_number": "+919967241588",
-        "site_address": "1003-1004, Shelton Cubix, Plot No.87, CBD Belapur, Navi Mumbai-400614"
+        "site_address": "1003-1004, Shelton Cubix, Plot No.87, Sector - 15, CBD Belapur, Navi Mumbai - 400 614"
     },
     {
         "id": 2,
@@ -34,14 +33,13 @@
             "/uploads/project_imgs/common_gallery_03.jpg",
             "/uploads/project_imgs/common_gallery_01.jpg"
         ],
-        "location": "Nerul, Navi Mumbai",
+        "location": "New Panvel, Navi Mumbai",
         "excerpt": "Balaji Sapphire is a statement of elegance, where architectural excellence meets luxury.",
         "description": "Balaji Vista is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
-        "rera_id": "P000000000",
-        "starting_price": " 2.1 Cr",
+        "rera_id": "P52000046718",
         "configurations": " 2 BHK",
         "contact_number": "+918928060047",
-        "site_address": "1003-1004, Shelton Cubix, Plot No.87, CBD Belapur, Navi Mumbai-400614"
+        "site_address": "Plot No. 32, Sector 17, Khanda Colony, New Panvel (W)"
     },
     {
         "id": 3,
@@ -56,14 +54,13 @@
             "/uploads/project_imgs/common_gallery_04.jpg",
             "/uploads/project_imgs/new_imgs/balaji-park.jpg"
         ],
-        "location": "Nerul, Navi Mumbai",
+        "location": "Kharghar, Navi Mumbai",
         "excerpt": "Varsha Balaji Park is a premium, under-construction residential complex developed by the Varsha Group.",
         "description": "Balaji Park is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
-        "rera_id": "P000000000",
-        "starting_price": " 1.1 Cr",
+        "rera_id": "P52000024410",
         "configurations": " 2 BHK",
         "contact_number": "+919136955744",
-        "site_address": "1003-1004, Shelton Cubix, Plot No.87, CBD Belapur, Navi Mumbai-400614"
+        "site_address": "Plot No.6,6A, 6B,6C, Sector -17, Kharghar, Navi Mumbai - 410 210."
     },
     {
         "id": 4,
@@ -78,14 +75,13 @@
             "/uploads/project_imgs/balaji_skyline_02.jpg",
             "/uploads/project_imgs/common_gallery_02.jpg"
         ],
-        "location": "Nerul, Navi Mumbai",
+        "location": "Kharghar, Navi Mumbai",
         "excerpt": "Varsha Balaji Skyline is a meticulously planned residential project by Varsha Group in Kharghar.",
         "description": "Balaji Skyline is an architectural marvel that redefines upscale living. The modern glasswork, elegant entrance lobby, and spacious balconies create an atmosphere of sophistication. Every element, from aesthetic detailing to functional layouts, has been curated for the perfect living experience.",
         "rera_id": "P52000052548",
-        "starting_price": " 1.5 Cr",
         "configurations": " 2 BHK",
         "contact_number": "+918655306164",
-        "site_address": "1003-1004, Shelton Cubix, Plot No.87, CBD Belapur, Navi Mumbai-400614"
+        "site_address": "Plot No.56, Sector 34A, Kharghar, Navi Mumbai 410 210"
     },
     {
         "id": 5,

@@ -14,7 +14,9 @@ function Footer() {
                   className="img-fluid mb-3"
                 />
                 <div className="text fsz-20 text-white lh-3 ">
-                 Varsha Group is a forward-thinking construction and development company with a proud legacy of over 23+ years of consistent performance, trust, and customer satisfaction.
+                  Varsha Group is a forward-thinking construction and
+                  development company with a proud legacy of over 23+ years of
+                  consistent performance, trust, and customer satisfaction.
                 </div>
                 <div className="foot-social mt-50">
                   <a href="https://www.facebook.com/VarshaGroupDevelopers/">
@@ -26,12 +28,10 @@ function Footer() {
                   <a href="https://web.whatsapp.com/send?phone=919321255744&text=Hello%21%20I%20would%20like%20to%20visit%20your%20project.">
                     <i className="fab fa-whatsapp"></i>
                   </a>
-                  {/* <a href="#">
-                    <i className="fab fa-linkedin-in"></i>
-                  </a>
-                  <a href="#">
+                  <a href="https://www.youtube.com/@varshagroup3129">
                     <i className="fab fa-youtube"></i>
-                  </a> */}
+                  </a>
+
                 </div>
               </div>
             </div>
@@ -51,7 +51,6 @@ function Footer() {
                   <li>
                     <a href="#"> +91 85919 55744</a>
                   </li>
-
                 </ul>
               </div>
             </div>
@@ -85,7 +84,10 @@ function Footer() {
         <div className="foot text-white">
           <div className="row">
             <div className="col-lg-6">
-              <p className="fsz-13">© 2026 Varsha Group. All Right Reserved. Designed & Developed by  <a href="https://letsdigin.in/"> DigIN Media</a> </p>
+              <p className="fsz-13">
+                © 2026 Varsha Group. All Right Reserved. Designed & Developed by{" "}
+                <a href="https://letsdigin.in/"> DigIN Media</a>{" "}
+              </p>
             </div>
             <div className="col-lg-6">
               <div className="foot-links">
