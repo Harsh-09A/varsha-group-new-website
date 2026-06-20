@@ -35,11 +35,37 @@ function Navbar() {
                 Projects
               </a>
             </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="#">
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Buyer's Guide
               </a>
-            </li> */}
+                <ul className="dropdown-menu">
+                  <li>
+                    <a className="dropdown-item" href="/gst"> GST</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/stamp-duty"> Stamp Duty & Registration</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/loan"> Loans</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/pmay"> PMAY</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/nri"> NRI Corner</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/loan-calculator"> Loan Calculator</a>
+                  </li>
+                </ul>
+            </li>
             <li className="nav-item">
               <a className="nav-link" href="/">
                 Blogs
