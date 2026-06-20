@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MainVideo() {
+function MainVideo({data}) {
   return (
     <div className="main-video">
       <video
@@ -13,7 +13,7 @@ function MainVideo() {
         controls
       >
         <source
-          src="/innerpages/assets/img/s_project2/video.mp4"
+          src={data.video_url}
           type="video/mp4"
         />
       </video>
