@@ -80,11 +80,11 @@ function Process() {
                   fontWeight: "700",
                 }}
               >
-                careers@varshagroup.in
+                sales@varshagroup.in
               </p>
 
               <a
-                href="/contact"
+                href=""
                 className="butn rounded-pill mt-4"
                 style={{
                   background: "#ff481f",

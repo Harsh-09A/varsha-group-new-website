@@ -35,9 +35,7 @@ export default function AboutPage() {
 
           <main>
             <CareerAccordian />
-           
-              <ResumeForm />
-           
+            <ResumeForm />
           </main>
 
           <Footer />
