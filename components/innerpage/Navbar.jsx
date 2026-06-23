@@ -39,7 +39,7 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <alert
+              <a
                 className={`nav-link ${pathname === "/" ? "active" : ""}`}
                 aria-current={pathname === "/" ? "page" : undefined}
                 href="/"
