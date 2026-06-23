@@ -26,7 +26,7 @@ function Experience() {
           <div className="col-lg-5">
             <div className="info wow fadeInUp" data-wow-delay="0.3s">
               <h3 className="fsz-45 fw-600 mb-30"> About Varsha Group </h3>
-              <div className="text fsz-20 color-666">
+              <div className="text fsz-20 color-666 text-justify">
               Varsha Group is a forward-thinking construction and development company with a proud legacy of over 23+ years of consistent performance, trust, and customer satisfaction. With a strong foundation built on quality, integrity, and innovation, we have established ourselves as a benchmark for timely project delivery, superior construction standards, and thoughtful urban planning. Our specialisation in CIDCO Tender plots underscores our expertise and proven success in some of the most strategically important projects across Navi Mumbai.
               </div>
               <Link

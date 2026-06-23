@@ -8,9 +8,9 @@ function Content() {
         <h1> PRADHAN MANTRI AWAS YOJANA-HOUSING FOR ALL</h1>
         <div className="row gx-5 justify-content-between pt-5">
           <div className="col-lg-8">
-            <div className="info wow fadeInUp slow" data-wow-delay="0.2s">
+            <div className="info wow fadeInUp slow text-justify" data-wow-delay="0.2s">
               <h3>How To Avail PM Awas Yojana Scheme Subsidy In 10 Points:</h3>
-              <div className="text fsz-20 fw-500 mb-20">
+              <div className="text fsz-20 mb-20">
                 "The idea of 'Housing For All' The extension will give more time
                 to middle income groups to avail interest subsidy under the
                 scheme. The PM Awas Yojana subsidy scheme is against the home
@@ -23,7 +23,7 @@ function Content() {
                 any part of India.
               </div>
 
-              <div className="text fsz-20 fw-500 mb-20">
+              <div className="text fsz-20  mb-20">
                 The home loan borrower can then opt for lower EMIs or repay loan
                 faster with original EMI. Under the subsidy scheme,
                 middle-income group beneficiaries with annual income of above
@@ -34,7 +34,7 @@ function Content() {
                 specified limit, if any, will be at non-subsidised rate.
               </div>
 
-              <div className="text fsz-20 fw-500 mb-20">
+              <div className="text fsz-20 mb-20">
                 Home loans sanctioned or applications are under consideration
                 since January 1, 2017, are eligible for interest subsidy under
                 the Credit Linked Subsidy Scheme for Middle Income Groups under

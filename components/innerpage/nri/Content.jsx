@@ -9,8 +9,8 @@ function Content() {
           <h1> NRI HOUSING LOAN CATEGORIES</h1>
           <div className="row gx-5 justify-content-between pt-5">
             <div className="col-lg-8">
-              <div className="info wow fadeInUp slow" data-wow-delay="0.2s">
-                <div className="text fsz-20 fw-500 mb-20">
+              <div className="info wow fadeInUp slow text-justify" data-wow-delay="0.2s">
+                <div className="text fsz-20  mb-20">
                   Non-Resident Indians (NRIs) are recognised under the Foreign
                   Exchange Regulatory Act. The RBI guidelines followed by banks
                   and housing finance companies states “that an Indian Citizen
@@ -19,7 +19,7 @@ function Content() {
                   is living abroad for an uncertain duration of stay is an NRI.
                 </div>
 
-                <div className="text fsz-20 fw-500 mb-20">
+                <div className="text fsz-20  mb-20">
                   Indians employed abroad, carrying on business or vocation
                   abroad or living abroad for an uncertain duration of stay.
                   Government servants posted abroad on government duty with the
@@ -33,7 +33,7 @@ function Content() {
                   Commission for Asia and the Pacific.
                 </div>
 
-                <div className="text fsz-20 fw-500 mb-20">
+                <div className="text fsz-20  mb-20">
                   Home loans for NRIs are available for construction of new
                   house/ flats, purchase of old House, addition/alteration to an
                   existing house and repairs/renovation etc. NRIs can mortgage

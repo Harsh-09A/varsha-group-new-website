@@ -10,7 +10,7 @@ function Process() {
           <div className="col-lg-5">
             <div className="career-content pe-lg-5">
 
-              <div className="d-flex align-items-center mb-4">
+              <div className="d-flex align-items-center mb-4 ">
                 <span
                   style={{
                     width: "60px",
@@ -56,6 +56,7 @@ function Process() {
                   fontSize: "20px",
                   lineHeight: "1.8",
                 }}
+                className="text-justify"
               >
                 At Varsha Group, we believe in creating exceptional spaces
                 and exceptional careers. Join our growing team of passionate
@@ -68,6 +69,7 @@ function Process() {
                   fontSize: "20px",
                   lineHeight: "1.8",
                 }}
+                 className="text-justify"
               >
                 If your desired position isn't listed and you believe you
                 can make a difference, send us your resume and we'll keep

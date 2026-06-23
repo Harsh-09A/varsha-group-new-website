@@ -8,8 +8,8 @@ function Stamp_Info() {
         <h1> STAMP DUTY</h1>
         <div className="row gx-5 justify-content-between">
           <div className="col-lg-8">
-            <div className="info wow fadeInUp slow" data-wow-delay="0.2s">
-              <div className="text fsz-20 fw-500 mb-20">
+            <div className="info wow fadeInUp slow text-justify" data-wow-delay="0.2s">
+              <div className="text fsz-20  mb-20">
                 A stamp duty of 6% is applicable and mandatory on flat purchases
                 within the jurisdiction of Greater Mumbai Municipal Corporation
                 and 6% on flat purchase within TMC judiciary limits, according
@@ -21,7 +21,7 @@ function Stamp_Info() {
                 parking is 5% in Mumbai.
               </div>
               <h3>PROCEDURE FOR STAMP DUTY</h3>
-              <div className="text fsz-20 fw-500 mb-20">
+              <div className="text fsz-20  mb-20">
                 The stamp duty amount is calculated for the flat purchaser as
                 per the agreement value or market value, whichever is higher.
                 Once the stamp duty amount is ascertained, the flat purchaser
@@ -31,7 +31,7 @@ function Stamp_Info() {
                 filled and signed by the respective parties.
               </div>
               <h3>REGISTRATION</h3>
-              <div className="text fsz-20 fw-500 mb-20">
+              <div className="text fsz-20  mb-20">
                 Registration of the Stamp duty paid agreement document is to
                 record ownership of the flat.It is registered under the India
                 Registration Act with the sub-registrar of Assurances, of the

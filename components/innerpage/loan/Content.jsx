@@ -9,8 +9,8 @@ function Content() {
           <h1> Home Loans In Mumbai</h1>
           <div className="row gx-5 justify-content-between">
             <div className="col-lg-8">
-              <div className="info wow fadeInUp slow" data-wow-delay="0.2s">
-                <div className="text fsz-20 fw-500 mb-20">
+              <div className="info wow fadeInUp slow text-justify" data-wow-delay="0.2s">
+                <div className="text fsz-20  mb-20">
                   The applicant should be at least 21 years of age to be
                   eligible for a home loan and having a regular source of income
                   from employment or personal business. The loan must terminate
@@ -24,7 +24,7 @@ function Content() {
                   as co-applicants can increase chances of a larger loan amount.
                 </div>
                 <h3>DOCUMENTS REQUIRED FOR HOME LOAN</h3>
-                <div className="text fsz-20 fw-500 mb-20">
+                <div className="text fsz-20 mb-20">
                   The stamp duty amount is calculated for the flat purchaser as
                   per the agreement value or market value, whichever is higher.
                   Once the stamp duty amount is ascertained, the flat purchaser

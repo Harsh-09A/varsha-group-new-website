@@ -5,11 +5,11 @@ function GST_Info() {
   return (
     <section className="tc-about-style7">
       <div className="container">
-          <h1> GST: A Home buyer's Guide </h1>
+        <h1> GST: A Home buyer's Guide </h1>
         <div className="row gx-5 justify-content-between">
           <div className="col-lg-8">
-            <div className="info wow fadeInUp slow" data-wow-delay="0.2s">
-              <div className="text fsz-25 fw-500 mb-20">
+            <div className="info wow fadeInUp slow text-justify" data-wow-delay="0.2s">
+              <div className="text fsz-20  mb-20">
                 Being pegged as a progressive tax change since Independence, the
                 Goods and Services Tax (GST) is probably going to dispose of the
                 mind boggling and questionable tax structure tormenting the
@@ -20,7 +20,7 @@ function GST_Info() {
                 bills i.e. RERA. GST is another improvement that will
                 significantly affect this segment.
               </div>
-              <div className="text fsz-25 fw-500 mb-20">
+              <div className="text fsz-20  mb-20">
                 The real estate sector is evaluated to represent around 5% of
                 India's GDP and is viewed as the second-biggest employer in the
                 nation. Be that as it may, the segment confronts issues
@@ -33,7 +33,7 @@ function GST_Info() {
           </div>
           <div className="col-lg-4">
             <Image
-            className=" rounded-3"
+              className=" rounded-3"
               src={"/innerpages/assets/img/process/proc1.jpg"}
               width={500}
               height={500}

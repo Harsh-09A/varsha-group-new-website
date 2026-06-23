@@ -540,7 +540,7 @@
   padding-bottom: 30px;
 }
 .tc-process-style1 .accordion-item .accordion-body .text {
-  font-size: 15px;
+  font-size: 16px;
   color: #666;
 }
 .tc-process-style1 .img {
@@ -671,7 +671,7 @@
   color: var(--color-orange1);
 }
 .tc-projects-style1 .projects .project-card .info .text {
-  font-size: 14px;
+  font-size: 16px;
   color: #666;
 }
 
