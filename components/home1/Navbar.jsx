@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 function Navbar() {
@@ -19,9 +18,9 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark tc-navbar-style1 section-padding-x">
       <div className="container-fluid content">
-        <Link className="navbar-brand me-lg-5" href="/">
+        <a className="navbar-brand me-lg-5" href="/">
           <img src="/home1/assets/img/logo_new.png" alt="" className="logo" />
-        </Link>
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -36,33 +35,33 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link
+              <a
                 className={`nav-link ${pathname === "/" ? "active" : ""}`}
                 aria-current={pathname === "/" ? "page" : undefined}
                 href="/"
               >
                 Home
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link
+              <a
                 className={`nav-link ${pathname === "/about" ? "active" : ""}`}
                 href="/about"
               >
                 About Us
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link
+              <a
                 className={`nav-link ${
                   pathname === "/projects" ? "active" : ""
                 }`}
                 href="/projects"
               >
                 Projects
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item dropdown">
@@ -80,100 +79,100 @@ function Navbar() {
 
               <ul className="dropdown-menu">
                 <li>
-                  <Link
+                  <a
                     className={`dropdown-item ${
                       pathname === "/gst" ? "active" : ""
                     }`}
                     href="/gst"
                   >
                     GST
-                  </Link>
+                  </a>
                 </li>
 
                 <li>
-                  <Link
+                  <a
                     className={`dropdown-item ${
                       pathname === "/stamp-duty" ? "active" : ""
                     }`}
                     href="/stamp-duty"
                   >
                     Stamp Duty & Registration
-                  </Link>
+                  </a>
                 </li>
 
                 <li>
-                  <Link
+                  <a
                     className={`dropdown-item ${
                       pathname === "/loan" ? "active" : ""
                     }`}
                     href="/loan"
                   >
                     Loans
-                  </Link>
+                  </a>
                 </li>
 
                 <li>
-                  <Link
+                  <a
                     className={`dropdown-item ${
                       pathname === "/pmay" ? "active" : ""
                     }`}
                     href="/pmay"
                   >
                     PMAY
-                  </Link>
+                  </a>
                 </li>
 
                 <li>
-                  <Link
+                  <a
                     className={`dropdown-item ${
                       pathname === "/nri" ? "active" : ""
                     }`}
                     href="/nri"
                   >
                     NRI Corner
-                  </Link>
+                  </a>
                 </li>
 
                 <li>
-                  <Link
+                  <a
                     className={`dropdown-item ${
                       pathname === "/loan-calculator" ? "active" : ""
                     }`}
                     href="/loan-calculator"
                   >
                     Loan Calculator
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </li>
 
             <li className="nav-item">
-              <Link
+              <a
                 className={`nav-link ${pathname === "/blogs" ? "active" : ""}`}
                 href="/blogs"
               >
                 Blogs
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link
+              <a
                 className={`nav-link ${pathname === "/career" ? "active" : ""}`}
                 href="/career"
               >
                 Career
-              </Link>
+              </a>
             </li>
 
             <li className="nav-item">
-              <Link
+              <a
                 className={`nav-link ${
                   pathname === "/contact" ? "active" : ""
                 }`}
                 href="/contact"
               >
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
