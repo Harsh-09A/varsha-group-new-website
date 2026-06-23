@@ -7,7 +7,8 @@ import Header from "@/components/innerpage/common/Header";
 import Navbar from "@/components/innerpage/Navbar";
 import About from "@/components/innerpage/about/About";
 import Process from "@/components/innerpage/about/Process";
-import Awards from "@/components/innerpage/about/Awards";
+import CareerAccordian from "@/components/innerpage/career/CareerAccordian";
+import ResumeForm from "@/components/innerpage/career/ResumeForm";
 import Footer from "@/components/home1/Footer";
 
 export default function AboutPage() {
@@ -33,10 +34,10 @@ export default function AboutPage() {
           <Header pageTitle={"Career"} />
 
           <main>
-            <About />
-            <Process />
-            {/* <Projects /> */}
-            <Awards />
+            <CareerAccordian />
+           
+              <ResumeForm />
+           
           </main>
 
           <Footer />
