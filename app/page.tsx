@@ -14,6 +14,7 @@ import Testimonials from "@/components/home1/Testimonials";
 import Blog from "@/components/home1/Blog";
 import Chat from "@/components/home1/Chat";
 import Footer from "@/components/home1/Footer";
+import DisclaimerPopup from "@/components/common/DisclaimerModal";
 
 export default function HomePage() {
   return (
@@ -33,7 +34,6 @@ export default function HomePage() {
       <div className="home-style1">
         <Loader />
 
-
         <div className="smooth-scroll-content" id="scrollsmoother-container">
           <Navbar />
           <Header />
@@ -51,6 +51,7 @@ export default function HomePage() {
           <Footer />
         </div>
       </div>
+      <DisclaimerPopup />
     </>
   );
 }

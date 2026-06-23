@@ -165,7 +165,7 @@
 /* --------------- inner-navbar-style1 --------------- */
 .inner-navbar-style1 {
   position: relative;
-  padding: 50px 4vw;
+  padding: 20px 4vw;
 }
 .inner-navbar-style1 .logo {
   /* width: 100px; */
@@ -173,13 +173,19 @@
 }
 .inner-navbar-style1 .navbar-nav .nav-link {
   font-size: 20px;
-  font-weight: 600;
+  /* font-weight: 600; */
   /* color: #000; */
   color: #fff;
   -webkit-margin-start: 30px;
           margin-inline-start: 30px;
   text-transform: capitalize;
 }
+
+/* Custom */
+.inner-navbar-style1 .navbar-nav .nav-link.active {
+    color: var(--color-orange1) !important;
+}
+/* Custom */
 .inner-navbar-style1 .nav-side {
   position: relative;
 }

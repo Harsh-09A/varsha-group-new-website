@@ -7,7 +7,7 @@ function Awards() {
         <h2 className="fsz-45 fw-500 text-center mb-30">
           Our 
           <span className="sub-font fst-italic color-orange1 fw-400 ps-2">
-            Partners
+            Associates
           </span>
         </h2>
         <div className="awards">
