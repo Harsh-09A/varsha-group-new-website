@@ -3,7 +3,7 @@
 import Script from "next/script";
 
 import Loader from "@/components/common/Loader";
-import Header from "@/components/innerpage/gst/Header";
+import Header from "@/components/innerpage/common/Header";
 import Navbar from "@/components/innerpage/Navbar";
 import GST_Info from "@/components/innerpage/gst/GST_Info";
 import Points from "@/components/innerpage/gst/Points";
@@ -29,7 +29,7 @@ export default function GSTPage() {
 
         <div className="smooth-scroll-content" id="scrollsmoother-container">
           <Navbar />
-          <Header />
+          <Header pageTitle={"G.S.T"} />
 
           <main>
             <GST_Info />

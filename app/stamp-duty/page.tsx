@@ -6,7 +6,7 @@ import Loader from "@/components/common/Loader";
 import Footer from "@/components/home1/Footer";
 import Navbar from "@/components/innerpage/Navbar";
 
-import Header from "@/components/innerpage/stamp-duty/Header";
+import Header from "@/components/innerpage/common/Header";
 import Stamp_Info from "@/components/innerpage/stamp-duty/Stamp_Info";
 
 export default function StampDuty() {
@@ -29,13 +29,10 @@ export default function StampDuty() {
 
         <div className="smooth-scroll-content" id="scrollsmoother-container">
           <Navbar />
-          <Header />
+          <Header pageTitle={"Stamp Duty"} />
 
           <main>
-            <Stamp_Info/>
- 
-           
-           
+            <Stamp_Info />
           </main>
 
           <Footer />

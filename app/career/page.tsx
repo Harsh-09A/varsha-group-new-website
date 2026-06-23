@@ -3,7 +3,7 @@
 import Script from "next/script";
 
 import Loader from "@/components/common/Loader";
-import Header from "@/components/innerpage/about/Header";
+import Header from "@/components/innerpage/common/Header";
 import Navbar from "@/components/innerpage/Navbar";
 import About from "@/components/innerpage/about/About";
 import Process from "@/components/innerpage/about/Process";
@@ -30,7 +30,7 @@ export default function AboutPage() {
 
         <div className="smooth-scroll-content" id="scrollsmoother-container">
           <Navbar />
-          <Header />
+          <Header pageTitle={"Career"} />
 
           <main>
             <About />

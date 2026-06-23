@@ -3,7 +3,7 @@
 import Script from "next/script";
 
 import Loader from "@/components/common/Loader";
-import Header from "@/components/innerpage/blog/Header";
+import Header from "@/components/innerpage/common/Header";
 import Navbar from "@/components/innerpage/Navbar";
 import FilterPosts from "@/components/innerpage/blog/FilterPosts";
 import Footer from "@/components/home1/Footer";
@@ -28,7 +28,7 @@ export default function BlogsPage() {
 
         <div className="smooth-scroll-content" id="scrollsmoother-container">
           <Navbar />
-          <Header />
+          <Header pageTitle={"Blogs"} />
 
           <main>
             <FilterPosts />

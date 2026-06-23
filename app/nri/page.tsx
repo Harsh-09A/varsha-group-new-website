@@ -6,7 +6,7 @@ import Loader from "@/components/common/Loader";
 import Footer from "@/components/home1/Footer";
 import Navbar from "@/components/innerpage/Navbar";
 
-import Header from "@/components/innerpage/nri/Header";
+import Header from "@/components/innerpage/common/Header";
 import Content from "@/components/innerpage/nri/Content";
 
 export default function StampDuty() {
@@ -29,7 +29,7 @@ export default function StampDuty() {
 
         <div className="smooth-scroll-content" id="scrollsmoother-container">
           <Navbar />
-          <Header />
+          <Header pageTitle={"NRI"} />
 
           <main>
             <Content />

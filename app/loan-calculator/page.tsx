@@ -6,7 +6,7 @@ import Loader from "@/components/common/Loader";
 import Footer from "@/components/home1/Footer";
 import Navbar from "@/components/innerpage/Navbar";
 
-import Header from "@/components/innerpage/loan-calculator/Header";
+import Header from "@/components/innerpage/common/Header";
 import EMICalculator from "@/components/innerpage/loan-calculator/EMICalculator";
 
 export default function LoanCalculatorPage() {
@@ -29,7 +29,7 @@ export default function LoanCalculatorPage() {
 
         <div className="smooth-scroll-content" id="scrollsmoother-container">
           <Navbar />
-          <Header />
+          <Header pageTitle={"Loan Calculator"} />
 
           <main>
             <EMICalculator />
