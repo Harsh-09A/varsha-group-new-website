@@ -8,6 +8,7 @@ import Navbar from "@/components/innerpage/Navbar";
 import About from "@/components/innerpage/about/About";
 import Process from "@/components/innerpage/about/Process";
 import Awards from "@/components/innerpage/about/Awards";
+import FoundersMessage from "@/components/innerpage/about/FoundersMessage";
 import Footer from "@/components/home1/Footer";
 
 export default function AboutPage() {
@@ -35,6 +36,7 @@ export default function AboutPage() {
           <main>
             <About />
             <Process />
+            <FoundersMessage/>
             {/* <Projects /> */}
             <Awards />
           </main>

@@ -33,20 +33,27 @@ function About() {
             </div>
           </div>
           <div className="col-lg-8">
-            <div className="info wow fadeInUp slow" data-wow-delay="0.2s">
-              <div className="text fsz-25 fw-500 mb-20">
+            <div className="info wow fadeInUp slow text-justify" data-wow-delay="0.2s">
+              <div className="text fsz-20 ">
                 Varsha Group is a forward-thinking construction and development
                 company with a proud legacy of over 23+ years of consistent
                 performance, trust, and customer satisfaction. With a strong
                 foundation built on quality, integrity, and innovation, we have
                 established ourselves as a benchmark for timely project
                 delivery, superior construction standards, and thoughtful urban
-                planning.
+                planning. Our specialisation in CIDCO Tender plots underscores
+                our expertise and proven success in some of the most
+                strategically important projects across Navi Mumbai.
               </div>
-              <div className="text fsz-25 fw-500 mb-20">
-                Our specialisation in CIDCO Tender plots underscores our
-                expertise and proven success in some of the most strategically
-                important projects across Navi Mumbai.
+              <div className="text fsz-20 pt-2">
+                Our journey is guided by the visionary leadership of our Founder
+                and Chairman, Shri Mohan Singh T. Choudhary, whose foresight and
+                dedication laid the cornerstone of the Group’s enduring success.
+                This legacy continues through the dynamic leadership of Mr.
+                Sunil B. Choudhary, Managing Director, and Mr. Bharat M.
+                Choudhary, Director. Together, they uphold our mission to exceed
+                expectations by delivering not just structures, but meaningful
+                experiences.
               </div>
             </div>
           </div>

@@ -306,3 +306,10 @@ section {
   background-color: #20201f;
 }
 
+/*  */
+.text-justify {
+  text-align: justify !important;
+}
+.text-theme-primary{
+  color: var(--color-orange1);
+}

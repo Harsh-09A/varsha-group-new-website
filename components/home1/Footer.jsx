@@ -1,4 +1,5 @@
 import React from "react";
+const currentYear = new Date().getFullYear();
 
 function Footer() {
   return (
@@ -82,11 +83,11 @@ function Footer() {
           </div>
         </div>
         <div className="foot text-white">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-lg-6">
               <p className="fsz-13">
-                © 2026 Varsha Group. All Right Reserved. Designed & Developed by{" "}
-                <a href="https://letsdigin.in/"> DigIN Media</a>{" "}
+                © {currentYear } Varsha Group. All Right Reserved. Designed & Developed by
+                <a className="text-theme-primary ps-2" href="https://letsdigin.in/"> DigIN Media</a>
               </p>
             </div>
             <div className="col-lg-6">
