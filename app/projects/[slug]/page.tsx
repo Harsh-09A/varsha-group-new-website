@@ -10,6 +10,7 @@ import Gallery from "@/components/innerpage/single_project2/Gallery";
 import Amenities from "@/components/innerpage/single_project2/Amenities";
 import MainVideo from "@/components/innerpage/single_project2/MainVideo";
 import Contact from "@/components/innerpage/single_project2/Contact";
+import ProcessGallery from "@/components/innerpage/single_project2/ProcessGallery";
 import Footer from "@/components/home1/Footer";
 import { getProjectBySlug } from "@/services/projects-service";
 import { notFound } from "next/navigation";
@@ -61,6 +62,7 @@ export default async function SingleProjectPage({ params }: Props) {
             <Gallery data={project} />
             {/* <Testimonials /> */}
             <Amenities data={project} />
+            <ProcessGallery data={project} />
             <MainVideo data={project} />
             <Contact data={project} />
           </main>
