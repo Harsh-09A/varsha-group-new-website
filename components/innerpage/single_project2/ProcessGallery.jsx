@@ -45,11 +45,10 @@ export default function ProcessGallery({ data }) {
   return (
     <div className="container py-5">
       <div className="text-center mb-80 pt-3">
-        <h2 className="title">Process Gallery</h2>
+        <h2 className="title">Current Project Status</h2>
 
         <p className="desc">
-          Every detail is crafted to provide exceptional comfort, convenience,
-          and sophistication.
+          Explore the latest construction progress through our project gallery.
         </p>
       </div>
 

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Playfair_Display, Jost } from "next/font/google";
 import styles from "./TeamSection.module.css";
+import { LiaLinkedin } from "react-icons/lia";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -17,42 +18,47 @@ const jost = Jost({
 const TEAM = [
   {
     index: "01",
-    name: "Amir Al Rashid",
-    role: "Managing Director",
-    bio: "Twenty years shaping skylines across the Gulf. Amir leads acquisition and vision for every masterplan, from first sketch to skyline.",
-    image:
-      "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop",
+    name: "Mr. Bharat Choudhary",
+    role: "Director",
+    bio: "Mr. Bharat Choudhary strengthens Varsha Group through innovative planning, quality-driven execution and customer-focused development. His dedication to excellence, thoughtful design, and sustainable growth ensures every project reflects the company’s vision and values.",
+    image: "/innerpages/assets/img/about/Bharat-Varsha-Group.png",
+    linkedin: "",
+    email: "",
   },
   {
     index: "02",
-    name: "Layla Haddad",
-    role: "Head of Design",
-    bio: "Architect by training, storyteller by instinct. Layla translates ambition into form — every façade, lobby and interior begins on her desk.",
-    image:
-      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=800&auto=format&fit=crop",
+    name: "Shri Mohan Singh Choudhary",
+    role: "Founder and Chairman",
+    bio: "Shri Mohan Singh Choudhary established Varsha Group with a vision of creating exceptional developments rooted in trust, quality and innovation. His leadership continues to inspire sustainable growth, lasting relationships and communities built to enrich generations.",
+    image: "/innerpages/assets/img/about/Mohan-Varsha-Group_new.png",
+    linkedin: "",
+    email: "",
   },
   {
     index: "03",
-    name: "Karim Boutros",
-    role: "Head of Sales",
-    bio: "Karim builds the relationships that turn plans into portfolios, guiding investors through every stage of ownership with quiet precision.",
-    image:
-      "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop",
+    name: "Mr. Sunil Choudhary",
+    role: "Managing Director",
+    bio: "Mr. Sunil Choudhary leads Varsha Group with a focus on strategic growth, operational excellence and customer satisfaction. His commitment to quality, timely execution and innovation ensures every project delivers lasting value and exceptional experiences.",
+    image: "/innerpages/assets/img/about/Sunil-Varsha-Group.png",
+    linkedin: "",
+    email: "",
   },
 ];
 
 // Server component — no "use client" needed, all interactivity is CSS-only (:hover).
 export default function TeamSection() {
   return (
-    <section className={`${styles.teamSection} ${playfair.variable} ${jost.variable}`}>
+    <section
+      className={`${styles.teamSection} ${playfair.variable} ${jost.variable}`}
+    >
       <div className={styles.container}>
         <div className={styles.eyebrow}>Leadership</div>
         <h2 className={styles.sectionTitle}>
           The people behind every <em>address</em>
         </h2>
         <p className={styles.sectionSub}>
-          Three disciplines, one standard. Meet the principals who carry
-          every development from first concept to final handover.
+          Three disciplines, one standard. Meet the principals who carry every
+          development from first concept to final handover.
         </p>
 
         <div className={styles.grid}>
@@ -61,7 +67,7 @@ export default function TeamSection() {
               <div className={styles.memberPhoto}>
                 <span className={`${styles.frameCorner} ${styles.fcTl}`} />
                 <span className={`${styles.frameCorner} ${styles.fcBr}`} />
-                <span className={styles.memberIndex}>{member.index}</span>
+                {/* <span className={styles.memberIndex}>{member.index}</span> */}
                 <Image
                   src={member.image}
                   alt={`Portrait of ${member.name}`}
@@ -78,11 +84,11 @@ export default function TeamSection() {
                 <p className={styles.memberBio}>{member.bio}</p>
 
                 <div className={styles.memberSocials}>
-                  <a href="#" aria-label={`${member.name} on LinkedIn`}>
-                    in
+                  <a href={member.linkedin} aria-label={`${member.name} on LinkedIn`}>
+                    <i className="fab fa-linkedin"></i>
                   </a>
-                  <a href="#" aria-label={`Email ${member.name}`}>
-                    @
+                  <a href={member.email} aria-label={`Email ${member.name}`}>
+                    <i className="fa-solid fa-envelope"></i>
                   </a>
                 </div>
               </div>
