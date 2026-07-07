@@ -28,7 +28,7 @@ function Services() {
                         className="img-cover"
                       />
                     </div>
-                    <div className="text color-666 mt-50 fsz-20">
+                    <div className="text color-666 mt-50 fsz-20 text-justify">
                       Our conduct, behavior and attitude is targeting towards
                       achieving great professionalism in the work.
                     </div>
@@ -54,7 +54,7 @@ function Services() {
                         className="img-cover"
                       />
                     </div>
-                    <div className="text color-666 mt-50 fsz-20">
+                    <div className="text color-666 mt-50 fsz-20 text-justify">
                       The timeframes - both projected and real defines and sets
                       help us deliver our every project, on time
                     </div>
@@ -80,7 +80,7 @@ function Services() {
                         className="img-cover"
                       />
                     </div>
-                    <div className="text color-666 mt-50 fsz-20">
+                    <div className="text color-666 mt-50 fsz-20 text-justify">
                       With care, precision and quality that we have built every
                       home, carries our legacy.
                     </div>
@@ -106,7 +106,7 @@ function Services() {
                         className="img-cover"
                       />
                     </div>
-                    <div className="text color-666 mt-50 fsz-20 ">
+                    <div className="text color-666 mt-50 fsz-20 text-justify">
                       Transparency and innovation drives our team’s performance,
                       create accountability and better communication and
                       delivers what was promised.
