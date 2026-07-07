@@ -149,7 +149,7 @@ function Navbar() {
             <li className="nav-item">
               <a
                 className={`nav-link ${pathname === "/blogs" ? "active" : ""}`}
-                href="/blogs"
+                href="/"
               >
                 Blogs
               </a>

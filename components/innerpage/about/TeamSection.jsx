@@ -30,7 +30,7 @@ const TEAM = [
     name: "Shri Mohan Singh Choudhary",
     role: "Founder and Chairman",
     bio: "Shri Mohan Singh Choudhary established Varsha Group with a vision of creating exceptional developments rooted in trust, quality and innovation. His leadership continues to inspire sustainable growth, lasting relationships and communities built to enrich generations.",
-    image: "/innerpages/assets/img/about/Mohan-Varsha-Group_new.png",
+    image: "/innerpages/assets/img/about/Mohan-Varsha-Group_final.png",
     linkedin: "",
     email: "",
   },
