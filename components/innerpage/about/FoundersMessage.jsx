@@ -3,9 +3,9 @@ import React from "react";
 const FoundersMessage = () => {
   return (
     <>
-      <div className="ser-img">
+      {/* <div className="ser-img">
         <img src="/innerpages/assets/img/about/founders_photo.jpeg" alt="" />
-      </div>
+      </div> */}
       <div className="container pt-3">
         <div className="row">
           <h2 className="fsz-45 fw-500 text-center mb-30">

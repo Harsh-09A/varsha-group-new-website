@@ -37,8 +37,8 @@ export default function AboutPage() {
           <main>
             <About />
             <Process />
-            {/* <FoundersMessage/> */}
             <TeamSection/>
+            <FoundersMessage/>
 
             {/* <Projects /> */}
             <Awards />

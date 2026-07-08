@@ -83,14 +83,14 @@ export default function TeamSection() {
                 <div className={styles.hairline} />
                 <p className={styles.memberBio}>{member.bio}</p>
 
-                <div className={styles.memberSocials}>
+                {/* <div className={styles.memberSocials}>
                   <a href={member.linkedin} aria-label={`${member.name} on LinkedIn`}>
                     <i className="fab fa-linkedin"></i>
                   </a>
                   <a href={member.email} aria-label={`Email ${member.name}`}>
                     <i className="fa-solid fa-envelope"></i>
                   </a>
-                </div>
+                </div> */}
               </div>
             </article>
           ))}
