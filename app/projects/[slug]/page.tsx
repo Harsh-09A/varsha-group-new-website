@@ -62,7 +62,7 @@ export default async function SingleProjectPage({ params }: Props) {
             <Gallery data={project} />
             {/* <Testimonials /> */}
             <Amenities data={project} />
-            <ProcessGallery data={project} />
+            {/* <ProcessGallery data={project} /> */}
             <MainVideo data={project} />
             <Contact data={project} />
           </main>
