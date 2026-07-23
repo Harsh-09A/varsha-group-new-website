@@ -37,7 +37,7 @@ function UpcomingProjects() {
                         <div className="project-card">
                           <a
                             // href={item.img}
-                            className="img"
+                            className="img upcoming-img"
                             data-fancybox="proj"
                           >
                             <img
