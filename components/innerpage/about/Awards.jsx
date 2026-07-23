@@ -13,7 +13,7 @@ function Awards() {
         <div className="awards">
           <div className="row">
             {data.map((item, i) => (
-              <div key={i} className="col-lg-3">
+              <div key={i} className="col-lg-4">
                 <div
                   className="award-card wow fadeInUp slow"
                   data-wow-delay="0.2s"

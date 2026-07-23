@@ -2446,7 +2446,8 @@
   text-decoration: underline;
 }
 .about-pg-style1 .tc-awards-style2 .award-card .logo {
-  height: 35px;
+  /* height: 35px; */
+  height: 50px;
 }
 .about-pg-style1 .tc-awards-style2 .award-card .title {
   display: -webkit-box;
@@ -2456,7 +2457,8 @@
       -ms-flex-align: end;
           align-items: end;
   margin: 15px 0;
-  min-height: 90px;
+  /* min-height: 90px; */
+  min-height: 50px;
 }
 @media screen and (max-width: 991px) {
   .about-pg-style1 .tc-awards-style2 {
