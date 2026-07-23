@@ -1,0 +1,134 @@
+.gallerySection {
+  padding: 90px 0;
+  background-color: #fafafa;
+}
+
+.sectionHeader {
+  max-width: 640px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.subtitle {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ff481f;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 14px;
+}
+
+.description {
+  color: #6b6b6b;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* --- Masonry via CSS columns: no JS required --- */
+.masonryGrid {
+  column-count: 1;
+  column-gap: 20px;
+}
+
+@media (min-width: 576px) {
+  .masonryGrid {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .masonryGrid {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 1400px) {
+  .masonryGrid {
+    column-count: 4;
+  }
+}
+
+.masonryItem {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 20px;
+  break-inside: avoid;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.imageWrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.imageWrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.masonryItem:hover .imageWrap img {
+  transform: scale(1.06);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.65) 0%,
+    rgba(0, 0, 0, 0) 55%
+  );
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.masonryItem:hover .overlay {
+  opacity: 1;
+}
+
+.overlayContent {
+  color: #fff;
+  transform: translateY(8px);
+  transition: transform 0.35s ease;
+}
+
+.masonryItem:hover .overlayContent {
+  transform: translateY(0);
+}
+
+.category {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #ff481f;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.caption {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin: 0;
+}

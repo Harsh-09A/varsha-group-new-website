@@ -10,6 +10,7 @@ import Experience from "@/components/home1/Experience";
 import Services from "@/components/home1/Services";
 import Process from "@/components/home1/Process";
 import Projects from "@/components/home1/Projects";
+import UpcomingProjects from "@/components/home1/UpcomingProjects";
 import Testimonials from "@/components/home1/Testimonials";
 import Blog from "@/components/home1/Blog";
 import Chat from "@/components/home1/Chat";
@@ -43,6 +44,7 @@ export default function HomePage() {
             <Services />
             <Process />
             <Projects />
+            <UpcomingProjects />
             <Testimonials />
             <Blog />
             <Chat />

@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect } from "react";
-import Image from "next/image";
 
 declare global {
   interface Window {
@@ -22,7 +21,7 @@ export default function DisclaimerModal() {
 
         modal.show();
       }
-    }, 100); // immediately on load
+    }, 5000); // 5 sec
 
     return () => clearTimeout(timer);
   }, []);
@@ -35,48 +34,11 @@ export default function DisclaimerModal() {
       aria-hidden="true"
     >
       <div className="modal-dialog modal-dialog-centered modal-xl">
-        <div
-          className="modal-content position-relative overflow-hidden border-0"
-          style={{ borderRadius: "16px" }}
-        >
-          {/* Background image */}
-          <Image
-            src="/uploads/disclaimer/disclaimer-bg.jpg"
-            alt=""
-            fill
-            priority
-            style={{ objectFit: "cover", zIndex: 0 }}
-          />
-          {/* Dark overlay for readability */}
-          <div
-            className="position-absolute top-0 start-0 w-100 h-100"
-            style={{
-              background:
-                "linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.6) 100%)",
-              zIndex: 1,
-            }}
-          />
+        <div className="modal-content">
+          <div className="modal-body p-4 p-lg-5">
+            <h1 className="display-3 fw-bold text-center mb-4">DISCLAIMER</h1>
 
-          <div
-            className="modal-body p-4 p-lg-5 position-relative text-white"
-            style={{ zIndex: 2 }}
-          >
-            {/* Optional logo */}
-            <div className="text-center mb-3">
-              <Image
-                src="/home1/assets/img/logo_new.png"
-                alt="Varsha Group"
-                width={140}
-                height={45}
-                style={{ height: "auto", width: "140px" }}
-              />
-            </div>
-
-            <h1 className="display-3 fw-bold text-center mb-4">
-              DISCLAIMER
-            </h1>
-
-            <p className="text-white">
+            <p>
               This is to inform you that www.varshagroup.in is the only official
               website of Varsha Group. Users are advised not to rely on
               information available on any other website, platform, or source
