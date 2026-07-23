@@ -176,8 +176,8 @@
   /* font-weight: 600; */
   /* color: #000; */
   color: #fff;
-  -webkit-margin-start: 30px;
-          margin-inline-start: 30px;
+  -webkit-margin-start: 15px;
+          margin-inline-start: 15px;
   text-transform: capitalize;
 }
 

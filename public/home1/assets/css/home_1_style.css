@@ -183,7 +183,7 @@
   font-size: 20px;
   color: #fff;
   opacity: 1;
-  margin: 0 20px;
+  margin: 0 8px;
 }
 .tc-navbar-style1 .content .navbar-nav .nav-link:hover, .tc-navbar-style1 .content .navbar-nav .nav-link.active {
   color: var(--color-orange1);

@@ -81,7 +81,7 @@ export default function TeamSection() {
                 <h3 className={styles.memberName}>{member.name}</h3>
                 <span className={styles.memberRole}>{member.role}</span>
                 <div className={styles.hairline} />
-                <p className={styles.memberBio}>{member.bio}</p>
+                <p className={`${styles.memberBio} text-justify`}>{member.bio}</p>
 
                 {/* <div className={styles.memberSocials}>
                   <a href={member.linkedin} aria-label={`${member.name} on LinkedIn`}>

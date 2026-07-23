@@ -81,12 +81,12 @@ function UpcomingProjects() {
 
                             <div className="text color-666">
                               {item.excerpt}
-                              <br />
+                              {/* <br />
                               {item.possession?.trim() && (
                                 <span className="fw-semibold text-dark">
                                   <b>Possession:</b> {item.possession}
                                 </span>
-                              )}
+                              )} */}
                             </div>
                             {/* <div className="text">{item.desc}</div> */}
                             <a

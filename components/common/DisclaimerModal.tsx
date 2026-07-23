@@ -76,7 +76,7 @@ export default function DisclaimerModal() {
               DISCLAIMER
             </h1>
 
-            <p className="text-white">
+            <p className="text-white text-justify">
               This is to inform you that www.varshagroup.in is the only official
               website of Varsha Group. Users are advised not to rely on
               information available on any other website, platform, or source

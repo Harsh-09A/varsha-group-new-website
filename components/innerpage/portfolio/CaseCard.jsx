@@ -36,11 +36,11 @@ const CaseCard = ({ item }) => {
           <div className="text color-666">
             {item.excerpt}
             <br />
-            {item.possession?.trim() && (
+            {/* {item.possession?.trim() && (
               <span className="fw-semibold text-dark">
                 <b>Possession:</b> {item.possession}
               </span>
-            )}
+            )} */}
           </div>
         </div>
       </div>

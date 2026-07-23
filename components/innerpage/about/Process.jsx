@@ -34,7 +34,7 @@ function Process() {
                         data-bs-parent="#accordionProcess"
                       >
                         <div className="accordion-body">
-                          <div className="text">
+                          <div className="text text-justify">
                             "Our vision is to redefine the real estate industry
                             by creating innovative, sustainable, and
                             value-driven structures that enrich lives and
@@ -68,7 +68,7 @@ function Process() {
                         data-bs-parent="#accordionProcess"
                       >
                         <div className="accordion-body">
-                          <div className="text">
+                          <div className="text text-justify">
                             Our mission is to surpass the expectations of our
                             homebuyers and investors by consistently delivering
                             the highest quality services and lifestyle. We are
@@ -103,7 +103,7 @@ function Process() {
                         data-bs-parent="#accordionProcess"
                       >
                         <div className="accordion-body">
-                          <div className="text">
+                          <div className="text text-justify">
                             Our values are rooted in trust, transparency,
                             reliability, and excellence. We are committed to
                             delivering quality developments on time while

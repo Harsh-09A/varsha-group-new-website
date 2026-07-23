@@ -91,11 +91,11 @@ function Projects() {
                             </h3>
                             <div className="text color-666">
                               {item.excerpt}
-                              <br />
+                              {/* <br />
                               <span className="fw-semibold text-dark">
                                 <b>Possession: </b>
                                 {item.possession}
-                              </span>
+                              </span> */}
                             </div>
                             {/* <div className="text">{item.desc}</div> */}
                           </div>

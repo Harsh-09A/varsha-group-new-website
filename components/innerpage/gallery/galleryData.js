@@ -4,6 +4,12 @@
 
 const galleryImages = [
   {
+    id: 0,
+    src: "/uploads/gallery/gal-0.jpeg",
+    alt: "Modern living room renovation",
+    category: "1",
+  },
+  {
     id: 1,
     src: "/uploads/gallery/gal-1.jpeg",
     alt: "Modern living room renovation",
