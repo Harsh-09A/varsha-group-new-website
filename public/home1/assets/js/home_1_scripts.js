@@ -83,22 +83,22 @@ $(document).ready(function () {
         mousewheel: false,
         keyboard: true,
         loop: false,
-        autoplay: false,
+        autoplay: true,
         breakpoints: {
             0: {
                 slidesPerView: 1,
             },
             480: {
-                slidesPerView: 1,
-            },
-            787: {
                 slidesPerView: 1.5,
             },
-            991: {
+            787: {
                 slidesPerView: 2,
             },
+            991: {
+                slidesPerView: 3,
+            },
             1200: {
-                slidesPerView: 2,
+                slidesPerView: 3,
             },
         },
     });

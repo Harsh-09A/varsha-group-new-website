@@ -9,14 +9,14 @@ function MainInfo({data}) {
             <h4 className="fsz-45 fw-bold js-splittext-lines">
               Architectural Excellence, Designed for the Discerning Few
             </h4>
-            <a
+            {/* <a
               href="#"
               className="butn hover-bg-orange1 text-capitalize bg-white rounded-pill mt-90"
             >
               <span>
                 Contact Now <i className="fal fa-arrow-up-right ms-2"></i>
               </span>
-            </a>
+            </a> */}
           </div>
           <div className="col-lg-6 offset-lg-2 mt-5 mt-lg-0">
             <h6
@@ -38,6 +38,9 @@ function MainInfo({data}) {
               </li>
               <li className="fsz-18 text-capitalize">
                 <span className="color-666"> Status: </span> {data.status}
+              </li>
+              <li className="fsz-18 text-capitalize">
+                <span className="color-666"> Possession: </span> {data.possession}
               </li>
             </ul>
           </div>

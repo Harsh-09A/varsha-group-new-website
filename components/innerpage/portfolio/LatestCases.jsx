@@ -3,8 +3,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 // import data from "../../../data/innerpages/portfolio/latestcases";
-import CaseCard from "./CaseCard"
-
+import CaseCard from "./CaseCard";
 
 function LatestCases({ data }) {
   const [activeFilter, setActiveFilter] = useState("ongoing");
@@ -70,7 +69,10 @@ function LatestCases({ data }) {
                       key={item.id || i}
                       layout="position"
                       layoutId={item.title}
-                      className={`col-lg-4 ${item.status}`}
+                      // className={`col-lg-4 ${item.status}`}
+                      className={`${
+                        item.status === "upcoming" ? "col-lg-6" : "col-lg-4"
+                      } ${item.status}`}
                       initial={{
                         opacity: 0,
                         y: 40,

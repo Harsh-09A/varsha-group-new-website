@@ -425,7 +425,7 @@
   z-index: 10;
 }
 .tc-services-style1 .service-card {
-  padding: 20px 60px 20px 30px;
+  padding: 20px 30px 20px 30px;
   -webkit-border-start: 1px solid #ccc;
           border-inline-start: 1px solid #ccc;
   display: block;
@@ -605,7 +605,7 @@
   position: relative;
 }
 .tc-projects-style1 .projects .projects-content * {
-  cursor: none;
+  cursor: pointer;
 }
 .tc-projects-style1 .projects .projects-content .float-cursor {
   position: absolute;

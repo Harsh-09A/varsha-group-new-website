@@ -309,7 +309,14 @@ section {
 /*  */
 .text-justify {
   text-align: justify !important;
-}
+   hyphens: auto;
+   }
 .text-theme-primary{
   color: var(--color-orange1);
+}
+
+.tags-highlight, .tags-highlight:hover{
+  background-color: var(--color-orange1);
+  color: #fff;
+  font-weight: bold;
 }

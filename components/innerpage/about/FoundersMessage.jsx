@@ -9,9 +9,9 @@ const FoundersMessage = () => {
       <div className="container pt-3">
         <div className="row">
           <h2 className="fsz-45 fw-500 text-center mb-30">
-            Message from our
+            Director's 
             <span className="sub-font fst-italic color-orange1 fw-400 ps-2">
-              Director
+              Profile
             </span>
           </h2>
 
