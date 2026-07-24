@@ -30,7 +30,7 @@ export default function MasonryGallery() {
               <div className={styles.imageWrap}>
                 <Image
                   src={image.src}
-                  alt={image.alt}
+                  alt={""}
                   width={600}
                   height={800}
                   sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, (max-width: 1400px) 33vw, 25vw"
@@ -38,14 +38,14 @@ export default function MasonryGallery() {
                   priority={index < 4}
                 />
                 <div className={styles.overlay}>
-                  {/* <div className={styles.overlayContent}>
-                    {image.category && (
-                      <span className={styles.category}>
-                        {image.category}
+                  <div className={styles.overlayContent}>
+                    {/* {image.number && (
+                      <span className={styles.number}>
+                        {image.number}
                       </span>
                     )}
-                    <p className={styles.caption}>{image.alt}</p>
-                  </div> */}
+                    */}
+                  </div>
                 </div>
               </div>
             </div>
