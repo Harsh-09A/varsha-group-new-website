@@ -3703,3 +3703,25 @@
   position: relative;
   padding: 160px 0;
 }
+/* =================================== */
+
+/* ======== Harsh Custom Code ============= */
+
+.inner-pages-style1 .section-padding-x {
+    padding-right: 4vw;
+    padding-left: 4vw;
+}
+
+.inner-pages-style1 .tc-navbar-style1 {
+position: absolute;
+  width: 100%;
+
+}
+.inner-pages-style1 .tc-navbar-style1 .content {
+    padding: 20px 0;
+}
+.inner-pages-style1 .tc-navbar-style1 .content .navbar-brand {
+    max-width: 200px;
+    -webkit-margin-end: 100px;
+    margin-inline-end: 100px;
+}

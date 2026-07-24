@@ -4,7 +4,8 @@ import Script from "next/script";
 
 import Loader from "@/components/common/Loader";
 import Header from "@/components/innerpage/common/Header";
-import Navbar from "@/components/innerpage/Navbar";
+// import Navbar from "@/components/innerpage/Navbar";
+import Navbar from "@/components/new_menu/Navbar";
 import Footer from "@/components/home1/Footer";
 import LatestCases from "@/components/innerpage/portfolio/LatestCases";
 import { getProjects } from "@/services/projects-service";

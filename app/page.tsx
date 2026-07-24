@@ -4,7 +4,8 @@ import Script from "next/script";
 
 import Loader from "@/components/common/Loader";
 import Menu from "@/components/home1/Menu";
-import Navbar from "@/components/home1/Navbar";
+// import Navbar from "@/components/home1/Navbar";
+import Navbar from "@/components/new_menu/Navbar";
 import Header from "@/components/home1/Header";
 import Experience from "@/components/home1/Experience";
 import Services from "@/components/home1/Services";
@@ -37,6 +38,7 @@ export default function HomePage() {
 
         <div className="smooth-scroll-content" id="scrollsmoother-container">
           <Navbar />
+          {/* <FullScreenMenu isOpen={true} onClose={false}/> */}
           <Header />
 
           <main>

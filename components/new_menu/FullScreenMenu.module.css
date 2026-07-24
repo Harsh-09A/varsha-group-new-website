@@ -1,0 +1,227 @@
+/* ===== Overlay shell ===== */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1050;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.45s ease, visibility 0.45s ease;
+  padding: 48px 24px 64px;
+}
+
+.overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Prevent body scroll bleed-through look */
+.overlay::-webkit-scrollbar {
+  width: 6px;
+}
+.overlay::-webkit-scrollbar-thumb {
+  background: #e6d9b8;
+  border-radius: 4px;
+}
+
+/* ===== Close button ===== */
+.closeBtn {
+  position: absolute;
+  top: 28px;
+  right: 32px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #e4ded0;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.closeBtn:hover {
+  border-color: #c9a24b;
+  transform: rotate(90deg);
+}
+
+.closeBtn span {
+  position: absolute;
+  width: 18px;
+  height: 1.5px;
+  background: #2b2b2b;
+}
+
+.closeBtn span:first-child {
+  transform: rotate(45deg);
+}
+.closeBtn span:last-child {
+  transform: rotate(-45deg);
+}
+
+/* ===== Logo ===== */
+.logoWrap {
+  margin-bottom: 40px;
+  opacity: 0;
+}
+
+.logoWrap img {
+  height: 92px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ===== Body layout ===== */
+.body {
+  display: flex;
+  align-items: flex-start;
+  gap: 64px;
+  max-width: 1100px;
+  width: 100%;
+  justify-content: center;
+}
+
+.divider {
+  align-self: stretch;
+  width: 1px;
+  background-image: linear-gradient(to bottom, #d8d2c2 55%, transparent 0%);
+  background-size: 1px 10px;
+  background-repeat: repeat-y;
+  min-height: 480px;
+}
+
+/* ===== Left: primary nav ===== */
+.primaryNav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  min-width: 220px;
+}
+
+.primaryNav li {
+  opacity: 0;
+}
+
+.primaryLink {
+  font-size: 1.15rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #8a8a8a;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.25s ease;
+}
+
+.primaryLink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 1px;
+  width: 0;
+  background: #c9a24b;
+  transition: width 0.3s ease;
+}
+
+.primaryLink:hover,
+.primaryLink.active {
+  color: #2b2b2b;
+}
+
+.primaryLink:hover::after,
+.primaryLink.active::after {
+  width: 100%;
+}
+
+/* ===== Right: project groups ===== */
+.projectCol {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 240px;
+  animation: panelFadeIn 0.3s ease both;
+}
+
+@keyframes panelFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.groupHeading {
+  font-size: 0.95rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #c9a24b;
+  margin: 18px 0 10px;
+}
+
+.groupHeading:first-child {
+  margin-top: 0;
+}
+
+.projectLink {
+  display: block;
+  padding: 4px 0;
+  font-size: 1.02rem;
+  color: #6f6f6f;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.projectLink:hover {
+  color: #2b2b2b;
+  transform: translateX(4px);
+}
+
+.projectLink.activeSub {
+  color: #2b2b2b;
+  font-weight: 600;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 767px) {
+  .body {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .divider {
+    width: 60%;
+    height: 1px;
+    min-height: 0;
+    background-image: linear-gradient(to right, #d8d2c2 55%, transparent 0%);
+    background-size: 10px 1px;
+  }
+
+  .primaryNav {
+    align-items: center;
+  }
+
+  .primaryLink::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .primaryLink:hover::after,
+  .primaryLink.active::after {
+    width: 60%;
+  }
+}

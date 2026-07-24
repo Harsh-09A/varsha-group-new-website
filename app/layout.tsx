@@ -106,7 +106,7 @@ export default function RootLayout({
           src="/common/assets/js/gsap_lib/ScrollTrigger.min.js"
           strategy="afterInteractive"
         />
-        <Script
+        {/* <Script
           id="tawk-chat"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -123,7 +123,7 @@ export default function RootLayout({
               })();
             `,
           }}
-        />
+        /> */}
       </body>
     </html>
   );

@@ -3,7 +3,8 @@
 import Script from "next/script";
 
 import Loader from "@/components/common/Loader";
-import Navbar from "@/components/innerpage/Navbar";
+// import Navbar from "@/components/innerpage/Navbar";
+import Navbar from "@/components/new_menu/Navbar";
 import Slider from "@/components/innerpage/single_post/Slider";
 import Content from "@/components/innerpage/single_post/Content";
 import Footer from "@/components/home1/Footer";

@@ -4,7 +4,8 @@ import Script from "next/script";
 
 import Loader from "@/components/common/Loader";
 import Footer from "@/components/home1/Footer";
-import Navbar from "@/components/innerpage/Navbar";
+// import Navbar from "@/components/innerpage/Navbar";
+import Navbar from "@/components/new_menu/Navbar";
 
 import Header from "@/components/innerpage/common/Header";
 import Stamp_Info from "@/components/innerpage/stamp-duty/Stamp_Info";

@@ -4,7 +4,8 @@ import Script from "next/script";
 
 import Loader from "@/components/common/Loader";
 import Header from "@/components/innerpage/common/Header";
-import Navbar from "@/components/innerpage/Navbar";
+// import Navbar from "@/components/innerpage/Navbar";
+import Navbar from "@/components/new_menu/Navbar";
 import GST_Info from "@/components/innerpage/gst/GST_Info";
 import Points from "@/components/innerpage/gst/Points";
 import Footer from "@/components/home1/Footer";
