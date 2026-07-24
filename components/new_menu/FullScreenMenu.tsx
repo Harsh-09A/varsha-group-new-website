@@ -40,8 +40,14 @@ const primaryLinks: NavItem[] = [
   {
     key: "projects",
     label: "Projects",
-    href: "/projects",
+    href: "#",
     submenu: [
+      {
+        heading: "All",
+        items: [
+          { label: "All Projects", href: "/projects" },
+        ],
+      },
       {
         heading: "Ongoing",
         items: [
@@ -93,6 +99,7 @@ export default function FullScreenMenu({ isOpen, onClose }: FullScreenMenuProps)
     if (!isOpen) return;
 
     document.body.style.overflow = "hidden";
+    // document.documentElement.style.overflowX = "hidden";
 
     let tl: any;
     let attempts = 0;
@@ -124,6 +131,7 @@ export default function FullScreenMenu({ isOpen, onClose }: FullScreenMenuProps)
     return () => {
       cancelled = true;
       document.body.style.overflow = "";
+      // document.documentElement.style.overflow = "";
       if (tl) tl.kill();
     };
   }, [isOpen]);
@@ -169,7 +177,7 @@ export default function FullScreenMenu({ isOpen, onClose }: FullScreenMenuProps)
       </button>
 
       <div ref={logoRef} className={styles.logoWrap}>
-        <img src="/home1/assets/img/logo_new.png" alt="Logo" />
+        <img src="/home1/assets/img/logo-2.png" alt="Logo" />
       </div>
 
       <div
