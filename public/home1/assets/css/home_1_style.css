@@ -175,7 +175,8 @@
   padding: 20px 0;
 }
 .tc-navbar-style1 .content .navbar-brand {
-  max-width: 200px;
+  /* max-width: 200px; */
+  max-width: 170px;
   -webkit-margin-end: 100px;
           margin-inline-end: 100px;
 }
@@ -195,8 +196,9 @@
 
 @media screen and (max-width: 991px) {
   .tc-navbar-style1 {
-    position: relative;
-    background-color: #333;
+    /* position: relative; */
+    /* background-color: #333; */
+    background-color: transparent;
   }
   .tc-navbar-style1 .content {
     border: 0;

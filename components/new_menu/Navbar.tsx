@@ -11,7 +11,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark tc-navbar-style1 section-padding-x">
         <div className="container-fluid content d-flex align-items-center justify-content-between">
           <a className="navbar-brand" href="/">
-            <img src="/home1/assets/img/logo-1.png" alt="" className="logo" />
+            <img src="/varsha/logo/varsha-new-logo.jpeg" alt="" className="logo" />
           </a>
 
           <button
