@@ -29,7 +29,7 @@ export default function ContactPage() {
 
         <div className="smooth-scroll-content" id="scrollsmoother-container">
           <Navbar />
-          <Header pageTitle={"Channel Partner"} />
+          <Header pageTitle={"Channel Partners"} />
 
           <main>
             <ChannelPartnerForm />

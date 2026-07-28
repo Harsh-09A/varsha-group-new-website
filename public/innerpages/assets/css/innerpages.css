@@ -3717,8 +3717,12 @@ position: absolute;
   width: 100%;
 
 }
+.inner-pages-style1 .navbar {
+  padding-top: 0 !important;
+  }
 .inner-pages-style1 .tc-navbar-style1 .content {
-    padding: 20px 0;
+    /* padding: 20px 0; */
+    padding: 0 0;
 }
 .inner-pages-style1 .tc-navbar-style1 .content .navbar-brand {
     max-width: 170px;

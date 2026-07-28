@@ -77,7 +77,7 @@ const primaryLinks: NavItem[] = [
   { key: "blog", label: "Blog", href: "/blogs" },
   { key: "career", label: "Career", href: "/career" },
   { key: "gallery", label: "Gallery", href: "/gallery" },
-  { key: "channelPartner", label: "Channel Partner", href: "/channel-partner" },
+  { key: "channelPartners", label: "Channel Partners", href: "/channel-partners" },
   { key: "contact", label: "Contact Us", href: "/contact" },
 ];
 

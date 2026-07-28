@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark tc-navbar-style1 section-padding-x">
-        <div className="container-fluid content d-flex align-items-center justify-content-between">
+        <div className="container-fluid content d-flex align-items-center justify-content-between mt-0 pt-0">
           <a className="navbar-brand" href="/">
             <img src="/varsha/logo/varsha-new-logo.jpeg" alt="" className="logo" />
           </a>
