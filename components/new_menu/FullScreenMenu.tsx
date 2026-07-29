@@ -240,7 +240,7 @@ export default function FullScreenMenu({ isOpen, onClose }: FullScreenMenuProps)
       </button>
 
       <div ref={logoRef} className={styles.logoWrap}>
-        <img src="/varsha/logo/varsha-new-logo.jpeg" alt="Logo" />
+        <img src="/varsha/logo/varsha-new-logo-01.jpeg" alt="Logo" />
       </div>
 
       {/* ===== Desktop layout: side-by-side, divider always visible, hover reveals panel ===== */}
