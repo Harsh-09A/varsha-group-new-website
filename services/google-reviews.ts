@@ -1,5 +1,4 @@
 "use server";
-
 import { unstable_cache } from "next/cache";
 
 interface GoogleReview {
@@ -20,7 +19,6 @@ interface PlaceDetailsResponse {
   reviews?: GoogleReview[];
 }
 
-
 export const getGoogleReviews = unstable_cache(
   async (placeId: string) => {
     if (!placeId) {
@@ -37,7 +35,6 @@ export const getGoogleReviews = unstable_cache(
   ["google-reviews"],
   { revalidate: 86400, tags: ["google-reviews"] },
 );
-
 
 async function fetchGoogleReviewsRaw(placeId: string) {
   const res = await fetch(
@@ -64,4 +61,22 @@ async function fetchGoogleReviewsRaw(placeId: string) {
   };
 }
 
-export default getGoogleReviews
+// Google ke raw response ko UI ke liye clean shape mein convert karta hai
+export async function getFormattedGoogleReviews(placeId: string) {
+  const result = await getGoogleReviews(placeId);
+
+  // API fail ho gaya ya reviews nahi mile — empty array return karo,
+  // UI mein isse "no reviews" case handle ho jayega
+  if (!result.success || !result.data) {
+    return [];
+  }
+
+  return result.data.reviews.map((review, index) => ({
+    id: index, // Google review ka apna stable unique id nahi hota
+    quote: review.text?.text ?? "",
+    stars: review.rating,
+    name: review.authorAttribution?.displayName ?? "Anonymous",
+    photo: review.authorAttribution?.photoUri ?? "",
+    relativeTime: review.relativePublishTimeDescription ?? "",
+  }));
+}

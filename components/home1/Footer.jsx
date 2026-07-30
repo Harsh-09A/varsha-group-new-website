@@ -16,12 +16,12 @@ function Footer() {
                   className="img-fluid mb-3"
                 /> */}
                 <Image
-                  className="mb-3"
-                  src="/varsha/logo/varsha-new-logo-01.jpeg"
+                  className="mb-2"
+                  src="/varsha/logo/varsha-new-logo-03.png"
                   alt="Varsha Group"
-                  width={170}
+                  width={300}
                   height={80}
-                  style={{ height: "auto", width: "170px" }}
+                  style={{ height: "auto", width: "300px" }}
                 />
                 <div className="text fsz-20 text-white lh-3 ">
                   Varsha Group is a forward-thinking construction and
