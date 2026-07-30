@@ -1,3 +1,4 @@
+"use client";
 // import data1 from "../../data/home1/projects/projects1";
 
 import { getProjectsByStatus } from "@/services/projects-service";

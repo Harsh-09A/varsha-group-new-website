@@ -1,30 +1,9 @@
-const testimonials = [
-  {
-    id: 1,
-    review:
-      "Varsha Balaji Skyline is truly well planned and impressive residential project. The 2 BHK configuration is very spacious and practical with good ventilation and proper vastu compliances and natural light.",
-    name: "Nova Nimje",
-    location: "Bandra, Mumbai",
-  },
-  {
-    id: 2,
-    review:
-      "I recently booked a flat with this builder, and my overall experience has been very positive. The entire process—from project explanation to documentation—was handled smoothly and professionally.",
-    name: "Swati Pandey",
-    location: "Kharghar, Navi Mumbai",
-  },
-  {
-    id: 3,
-    review:
-      "Balaji Skyline by Varsha Group is the best project in this locality with 100% Vastu Compliance which was our first priority. Good spacious 2BHK with decent size of balcony along with all basis amenities.",
-    name: "Durgesh Dodi",
-    location: "Panvel, Navi Mumbai",
-  },
-];
+import { getGoogleReviews } from "@/services/google-reviews";
 
+async function Testimonials() {
+  const result = await getGoogleReviews("ChIJjVHtravD5zsRwgcbPE3yxQo");
+  const reviews = result.success && result.data ? result.data.reviews : [];
 
-
-function Testimonials() {
   return (
     <section className="tc-testimonials-style1">
       <div className="container">
@@ -42,29 +21,22 @@ function Testimonials() {
             <div className="tc-clients-style1">
               <div className="clients-slider1">
                 <div className="swiper-wrapper">
-                  {testimonials.map((item) => (
-                    <div className="swiper-slide" key={item.id}>
+                  {reviews.map((item) => (
+                    <div className="swiper-slide" key={item.name}>
                       <div className="clients-card">
-                        <div className="text fsz-45 fw-600 lh-2 js-splittext-lines">
-                          “{item.review}”
+                        {/* fsz-45 fw-600 */}
+                        <div className="text fsz-20 fw-600 lh-2 js-splittext-lines">
+                          “{item.text?.text ?? ""}”
                         </div>
 
                         <div className="author">
-                          {/* <div className="au-img">
-                            <img
-                              src={item.image}
-                              alt={item.name}
-                              className="img-cover"
-                            />
-                          </div> */}
-
                           <div className="au-inf">
                             <h6 className="text-capitalize mb-2 fsz-16 fw-bold">
-                              {item.name}
+                              {item.authorAttribution.displayName}
                             </h6>
 
                             <p className="text-capitalize fsz-14 color-666">
-                              {item.location}
+                              {item.rating}⭐
                             </p>
                           </div>
                         </div>
