@@ -1,8 +1,8 @@
-import { getGoogleReviews } from "@/services/google-reviews";
+import getGoogleReviews from "@/services/google-reviews";
 import StarRating from "@/utils/ratings";
 
 async function Testimonials() {
-  const result = await getGoogleReviews("ChIJjVHtravD5zsRwgcbPE3yxQo");
+  const result = await getGoogleReviews(process.env.GOOGLE_PLACE_ID);
   const reviews = result.success && result.data ? result.data.reviews : [];
 
   return (

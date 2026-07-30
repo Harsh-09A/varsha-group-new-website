@@ -1,4 +1,7 @@
 "use server";
+
+import { unstable_cache } from "next/cache";
+
 interface GoogleReview {
   name: string;
   relativePublishTimeDescription: string;
@@ -17,6 +20,25 @@ interface PlaceDetailsResponse {
   reviews?: GoogleReview[];
 }
 
+
+export const getGoogleReviews = unstable_cache(
+  async (placeId: string) => {
+    if (!placeId) {
+      return { success: false, error: "placeId missing", data: null };
+    }
+    try {
+      const data = await fetchGoogleReviewsRaw(placeId);
+      return { success: true, error: null, data };
+    } catch (err) {
+      console.error("getGoogleReviews failed:", err);
+      return { success: false, error: "Fetch error", data: null };
+    }
+  },
+  ["google-reviews"],
+  { revalidate: 86400, tags: ["google-reviews"] },
+);
+
+
 async function fetchGoogleReviewsRaw(placeId: string) {
   const res = await fetch(
     `https://places.googleapis.com/v1/places/${placeId}`,
@@ -26,7 +48,7 @@ async function fetchGoogleReviewsRaw(placeId: string) {
         "Content-Type": "application/json",
         "X-Goog-Api-Key": process.env.GOOGLE_PLACES_API_KEY as string,
         "X-Goog-FieldMask": "displayName,reviews",
-        Referer: "https://www.varshagroup.in/", // 👈 ye add karo
+        Referer: "https://www.varshagroup.in/",
       },
     },
   );
@@ -41,3 +63,5 @@ async function fetchGoogleReviewsRaw(placeId: string) {
     reviews: data.reviews ?? [],
   };
 }
+
+export default getGoogleReviews
