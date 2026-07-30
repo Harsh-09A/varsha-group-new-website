@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 const currentYear = new Date().getFullYear();
 
@@ -9,10 +10,18 @@ function Footer() {
           <div className="row gx-0">
             <div className="col-lg-4">
               <div className="info-side">
-                <img
-                  src="/home1/assets/img/logo_new.png"
+                {/* <img
+                  src="/varsha/logo/varsha-new-logo-01.jpeg"
                   alt=""
                   className="img-fluid mb-3"
+                /> */}
+                <Image
+                  className="mb-3"
+                  src="/varsha/logo/varsha-new-logo-01.jpeg"
+                  alt="Varsha Group"
+                  width={170}
+                  height={80}
+                  style={{ height: "auto", width: "170px" }}
                 />
                 <div className="text fsz-20 text-white lh-3 ">
                   Varsha Group is a forward-thinking construction and
@@ -32,7 +41,6 @@ function Footer() {
                   <a href="https://www.youtube.com/@varshagroup3129">
                     <i className="fab fa-youtube"></i>
                   </a>
-
                 </div>
               </div>
             </div>
@@ -86,8 +94,15 @@ function Footer() {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <p className="fsz-13">
-                © {currentYear } Varsha Group. All Right Reserved. Designed & Developed by
-                <a className="text-theme-primary ps-2" href="https://letsdigin.in/"> DigIN Media</a>
+                © {currentYear} Varsha Group. All Right Reserved. Designed &
+                Developed by
+                <a
+                  className="text-theme-primary ps-2"
+                  href="https://letsdigin.in/"
+                >
+                  {" "}
+                  DigIN Media
+                </a>
               </p>
             </div>
             <div className="col-lg-6">

@@ -64,11 +64,11 @@ export default function DisclaimerModal() {
             {/* Optional logo */}
             <div className="text-center mb-3">
               <Image
-                src="/home1/assets/img/logo_new.png"
+                src="/varsha/logo/varsha-new-logo-01.jpeg"
                 alt="Varsha Group"
-                width={140}
-                height={45}
-                style={{ height: "auto", width: "140px" }}
+                width={170}
+                height={80}
+                style={{ height: "auto", width: "170px" }}
               />
             </div>
 
