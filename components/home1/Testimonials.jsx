@@ -1,4 +1,5 @@
 import { getGoogleReviews } from "@/services/google-reviews";
+import StarRating from "@/utils/ratings";
 
 async function Testimonials() {
   const result = await getGoogleReviews("ChIJjVHtravD5zsRwgcbPE3yxQo");
@@ -35,9 +36,7 @@ async function Testimonials() {
                               {item.authorAttribution.displayName}
                             </h6>
 
-                            <p className="text-capitalize fsz-14 color-666">
-                              {item.rating}⭐
-                            </p>
+                            <StarRating rating={item.rating} />
                           </div>
                         </div>
                       </div>
