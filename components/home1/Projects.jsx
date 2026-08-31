@@ -75,7 +75,7 @@ function Projects() {
 
                             <div className="tags">
                               <a className="tags-highlight">{item.location}</a>
-                              <a>{item.rera_id}</a>
+                              <a>{`RERA: ${item.rera_id}`}</a>
                               <a>{item.configurations}</a>
                             </div>
                             <h3 className="title fsz-35 mb-20">
