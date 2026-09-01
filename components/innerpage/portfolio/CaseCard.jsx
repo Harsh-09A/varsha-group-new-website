@@ -19,7 +19,7 @@ const CaseCard = ({ item }) => {
             <a>{item.configurations}</a> */}
 
             {/* null, undefined, "" (aur trim() wale version me " ") → render nahi hoga. */}
-            {item.rera_id?.trim() && <a>{item.rera_id}</a>}
+            {item.rera_id?.trim() && <a>{`RERA: ${item.rera_id}`}</a>}
             {item.configurations?.trim() && <a>{item.configurations}</a>}
           </div>
 
