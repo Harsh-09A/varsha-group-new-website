@@ -1,17 +1,21 @@
-import { getFormattedGoogleReviews } from "@/services/google-reviews";
+import {
+  getFormattedGoogleReviews,
+  getGooglePlaceRatingSummary,
+} from "@/services/google-reviews";
 import StarRating from "@/utils/ratings";
 
 const GOOGLE_PLACE_ID = process.env.GOOGLE_PLACE_ID;
 
 async function Testimonials() {
   const reviews = await getFormattedGoogleReviews(GOOGLE_PLACE_ID);
+  const ratingSummary = await getGooglePlaceRatingSummary(GOOGLE_PLACE_ID);
 
   return (
     <section className="tc-testimonials-style1">
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
-            <div className="d-flex align-items-center gap-2 mb-4 pb-2">
+            {/* <div className="d-flex align-items-center gap-2 mb-4 pb-2">
               <img
                 src="https://cdn.trustindex.io/assets/platform/Google/icon.svg"
                 alt="Google"
@@ -21,6 +25,36 @@ async function Testimonials() {
               <span className="fsz-14 fw-600 text-uppercase">
                 Google Reviews
               </span>
+            </div> */}
+            <div className="d-flex align-items-center justify-content-between flex-wrap gap-3 mb-4">
+              <div className="d-flex align-items-center gap-3">
+                <img
+                  src="https://cdn.trustindex.io/assets/platform/Google/icon.svg"
+                  alt="Google"
+                  width={36}
+                  height={36}
+                />
+                <div>
+                  <div className="d-flex align-items-center gap-2">
+                    <span className="fw-bold fs-5">
+                      {ratingSummary.rating.toFixed(1)}
+                    </span>
+                    <i className="la la-star" style={{ color: "#FBBC04" }}></i>
+                  </div>
+                  <p className="mb-0 text-muted small">
+                    Based on {ratingSummary.totalReviews} Google reviews
+                  </p>
+                </div>
+              </div>
+
+              {/* <a
+          href={googleReviewsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-outline-primary btn-sm"
+        >
+          View all Google reviews
+        </a> */}
             </div>
 
             <h6 className="fsz-18 text-uppercase lh-4">
@@ -91,7 +125,9 @@ async function Testimonials() {
                   height={18}
                   className=""
                 />
-                <span className="px-2 text-capitalize fs-6">View all Google reviews of Varsha Group</span>
+                <span className="px-2 text-capitalize fs-6">
+                  View all Google reviews of Varsha Group
+                </span>
               </a>
             </div>
           </div>
