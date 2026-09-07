@@ -26,6 +26,7 @@ async function Testimonials() {
                 Google Reviews
               </span>
             </div> */}
+            <span className="fsz-14 fw-600 text-uppercase pb-3">Google Reviews</span>
             <div className="d-flex align-items-center justify-content-between flex-wrap gap-3 mb-4">
               <div className="d-flex align-items-center gap-3">
                 <img
