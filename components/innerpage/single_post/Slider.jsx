@@ -1,12 +1,16 @@
-import React from 'react';
+import { getImageUrl } from "@/lib/image-url";
 
-function Slider() {
+
+function Slider({ blog }) {
   return (
     <section className="tc-main-img-style1 header">
       <div className="main-img">
         <img
-          src="/innerpages/assets/img/blog/b1.jpg"
-          alt=""
+          src={
+            getImageUrl(blog.coverImage) ||
+            "/placeholder-image.png"
+          }
+          alt={blog.title}
           className="img-cover"
           data-speed="1.25"
         />
@@ -15,13 +19,19 @@ function Slider() {
         <div className="container">
           <div className="info">
             <div className="date fsz-12 text-uppercase mb-30">
-              <a href="#"> inspiration </a>
+              <a href="#">{blog.category || "General"}</a>
               <span className="circle icon-3 bg-white rounded-circle mx-3"></span>
-              <a href="#"> march 24, 2024 </a>
+              <a href="#">
+                {new Date(blog.createdAt).toLocaleDateString("en-IN", {
+                  day: "numeric",
+                  month: "long",
+                  year: "numeric",
+                })}
+              </a>
             </div>
             <h2 className="title">
               <a href="#" className="hover-orange1">
-                Top 10 Wooden Architecture Building 2023
+                {blog.title}
               </a>
             </h2>
           </div>

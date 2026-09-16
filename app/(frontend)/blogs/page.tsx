@@ -1,0 +1,54 @@
+import Script from "next/script";
+import Loader from "@/components/common/Loader";
+import Header from "@/components/innerpage/common/Header";
+import Navbar from "@/components/new_menu/Navbar";
+import FilterPosts from "@/components/innerpage/blog/FilterPosts";
+import { getAllBlogs } from "@/services/blogs-frontend";
+import Footer from "@/components/home1/Footer";
+
+export const dynamic = "force-dynamic";
+
+export default async function BlogsPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
+  const resolvedSearchParams = await searchParams;
+  const page = Number(resolvedSearchParams?.page) || 1;
+
+  const { blogs, totalPages, currentPage } = await getAllBlogs(page);
+
+  return (
+    <>
+      <link rel="stylesheet" href="/innerpages/assets/css/innerpages.css" />
+
+      <Script
+        src="/common/assets/js/common_js.js"
+        strategy="afterInteractive"
+      />
+      <Script
+        src="/innerpages/assets/js/innerpages.js"
+        strategy="afterInteractive"
+      />
+
+      <div className="inner-pages-style1 blog-pg-style1">
+        <Loader />
+
+        <div className="smooth-scroll-content" id="scrollsmoother-container">
+          <Navbar />
+          <Header pageTitle={"Blogs"} />
+
+          <main>
+            <FilterPosts
+              posts={blogs}
+              totalPages={totalPages}
+              currentPage={currentPage}
+            />
+          </main>
+
+          <Footer />
+        </div>
+      </div>
+    </>
+  );
+}
